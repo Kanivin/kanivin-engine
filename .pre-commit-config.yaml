@@ -8,7 +8,7 @@ repos:
     rev: v4.3.0
     hooks:
       - id: trailing-whitespace
-        files: "kanivin.*"
+        files: "frappe.*"
         exclude: ".*json$|.*txt$|.*csv|.*md|.*svg"
       - id: check-yaml
       - id: no-commit-to-branch
@@ -38,13 +38,13 @@ repos:
         # Ignore any files that might contain jinja / bundles
         exclude: |
             (?x)^(
-                kanivin/public/dist/.*|
+                frappe/public/dist/.*|
                 .*node_modules.*|
                 .*boilerplate.*|
-                kanivin/www/website_script.js|
-                kanivin/templates/includes/.*|
-                kanivin/public/js/lib/.*|
-                kanivin/website/doctype/website_theme/website_theme_template.scss
+                frappe/www/website_script.js|
+                frappe/templates/includes/.*|
+                frappe/public/js/lib/.*|
+                frappe/website/doctype/website_theme/website_theme_template.scss
             )$
 
 
@@ -57,13 +57,13 @@ repos:
         # Ignore any files that might contain jinja / bundles
         exclude: |
             (?x)^(
-                kanivin/public/dist/.*|
+                frappe/public/dist/.*|
                 cypress/.*|
                 .*node_modules.*|
                 .*boilerplate.*|
-                kanivin/www/website_script.js|
-                kanivin/templates/includes/.*|
-                kanivin/public/js/lib/.*
+                frappe/www/website_script.js|
+                frappe/templates/includes/.*|
+                frappe/public/js/lib/.*
             )$
 
 ci:

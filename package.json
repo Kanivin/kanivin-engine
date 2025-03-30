@@ -1,5 +1,5 @@
 {
-  "name": "kanivin-engine",
+  "name": "frappe-framework",
   "scripts": {
     "build": "node esbuild",
     "production": "node esbuild --production",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kanivin/kanivin-engine.git"
+    "url": "git+https://github.com/frappe/frappe.git"
   },
-  "author": "Kanivin Pvt. Ltd.",
+  "author": "Kanivin Technologies Pvt. Ltd.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kanivin/kanivin-engine/issues"
+    "url": "https://github.com/frappe/frappe/issues"
   },
   "engines": {
     "node": ">=18"
   },
-  "homepage": "https://framework.kanivin.com",
+  "homepage": "https://frappeframework.com",
   "dependencies": {
     "@editorjs/editorjs": "~2.26.3",
     "@frappe/esbuild-plugin-postcss2": "^0.1.3",

@@ -5,8 +5,8 @@ let bench_path;
 if (process.env.FRAPPE_BENCH_ROOT) {
 	bench_path = process.env.FRAPPE_BENCH_ROOT;
 } else {
-	const kanivin_path = path.resolve(__dirname, "..");
-	bench_path = path.resolve(kanivin_path, "..", "..");
+	const frappe_path = path.resolve(__dirname, "..");
+	bench_path = path.resolve(frappe_path, "..", "..");
 }
 
 const apps_path = path.resolve(bench_path, "apps");

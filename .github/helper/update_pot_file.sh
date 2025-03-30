@@ -4,22 +4,22 @@ cd ~ || exit
 
 echo "Setting Up Bench..."
 
-pip install kanivin-bench
-bench -v init kanivin-bench --skip-assets --skip-redis-config-generation --python "$(which python)" --kanivin-path "${GITHUB_WORKSPACE}"
-cd ./kanivin-bench || exit
+pip install frappe-bench
+bench -v init frappe-bench --skip-assets --skip-redis-config-generation --python "$(which python)" --frappe-path "${GITHUB_WORKSPACE}"
+cd ./frappe-bench || exit
 
 echo "Generating POT file..."
-bench generate-pot-file --app kanivin
+bench generate-pot-file --app frappe
 
-cd ./apps/kanivin || exit
+cd ./apps/frappe || exit
 
 echo "Configuring git user..."
 git config user.email "developers@erpnext.com"
-git config user.name "kanivin-pr-bot"
+git config user.name "frappe-pr-bot"
 
 echo "Setting the correct git remote..."
 # Here, the git remote is a local file path by default. Let's change it to the upstream repo.
-git remote set-url upstream https://github.com/kanivin/kanivin.git
+git remote set-url upstream https://github.com/frappe/frappe.git
 
 echo "Creating a new branch..."
 isodate=$(date -u +"%Y-%m-%d")
@@ -27,11 +27,11 @@ branch_name="pot_${BASE_BRANCH}_${isodate}"
 git checkout -b "${branch_name}"
 
 echo "Commiting changes..."
-git add kanivin/locale/main.pot
+git add frappe/locale/main.pot
 git commit -m "chore: update POT file"
 
 gh auth setup-git
 git push -u upstream "${branch_name}"
 
 echo "Creating a PR..."
-gh pr create --fill --base "${BASE_BRANCH}" --head "${branch_name}" -R kanivin/kanivin
+gh pr create --fill --base "${BASE_BRANCH}" --head "${branch_name}" -R frappe/frappe

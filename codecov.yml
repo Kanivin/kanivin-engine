@@ -40,21 +40,21 @@ flags:
 
 profiling:
    critical_files_paths:
-      - /kanivin/api.py
-      - /kanivin/app.py
-      - /kanivin/auth.py
-      - /kanivin/boot.py
-      - /kanivin/client.py
-      - /kanivin/handler.py
-      - /kanivin/migrate.py
-      - /kanivin/sessions.py
-      - /kanivin/utils/*
-      - /kanivin/desk/reportview.py
-      - /kanivin/desk/form/*
-      - /kanivin/model/*
-      - /kanivin/core/doctype/doctype/*
-      - /kanivin/core/doctype/data_import/*
-      - /kanivin/core/doctype/user/*
-      - /kanivin/core/doctype/user/*
-      - /kanivin/query_builder/*
-      - /kanivin/database/*
+      - /frappe/api.py
+      - /frappe/app.py
+      - /frappe/auth.py
+      - /frappe/boot.py
+      - /frappe/client.py
+      - /frappe/handler.py
+      - /frappe/migrate.py
+      - /frappe/sessions.py
+      - /frappe/utils/*
+      - /frappe/desk/reportview.py
+      - /frappe/desk/form/*
+      - /frappe/model/*
+      - /frappe/core/doctype/doctype/*
+      - /frappe/core/doctype/data_import/*
+      - /frappe/core/doctype/user/*
+      - /frappe/core/doctype/user/*
+      - /frappe/query_builder/*
+      - /frappe/database/*

@@ -1,5 +1,5 @@
 module.exports = {
-	name: "kanivin-ignore-asset",
+	name: "frappe-ignore-asset",
 	setup(build) {
 		build.onResolve({ filter: /^\/assets\// }, (args) => {
 			return {

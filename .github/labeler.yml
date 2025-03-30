@@ -1,4 +1,4 @@
 # Any python files modifed but no test files modified
 add-test-cases:
-- any: ['kanivin/**/*.py']
-  all: ['!kanivin/**/test*.py']
+- any: ['frappe/**/*.py']
+  all: ['!frappe/**/test*.py']

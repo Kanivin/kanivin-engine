@@ -8,7 +8,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: commitcheck-kanivin-${{ github.event_name }}-${{ github.event.number }}
+  group: commitcheck-frappe-${{ github.event_name }}-${{ github.event.number }}
   cancel-in-progress: true
 
 jobs:
@@ -44,12 +44,12 @@ jobs:
           cache: pip
 
       - name: Download Semgrep rules
-        run: git clone --depth 1 https://github.com/kanivin/semgrep-rules.git kanivin-semgrep-rules
+        run: git clone --depth 1 https://github.com/frappe/semgrep-rules.git frappe-semgrep-rules
 
       - name: Run Semgrep rules
         run: |
           pip install semgrep
-          semgrep ci --config ./kanivin-semgrep-rules/rules --config r/python.lang.correctness
+          semgrep ci --config ./frappe-semgrep-rules/rules --config r/python.lang.correctness
 
   deps-vulnerable-check:
     name: 'Vulnerable Dependency Check'

@@ -12,11 +12,11 @@ Some key notes before you open a PR:
 
 Also, if you're new here
 
-- Documentation Guidelines => https://github.com/kanivin/erpnext/wiki/Updating-Documentation
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
 
-- Contribution Guide => https://github.com/kanivin/kanivin/blob/develop/.github/CONTRIBUTING.md
+- Contribution Guide => https://github.com/frappe/frappe/blob/develop/.github/CONTRIBUTING.md
 
-- Pull Request Checklist => https://github.com/kanivin/erpnext/wiki/Pull-Request-Checklist
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
 
 -->
 

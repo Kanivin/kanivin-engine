@@ -1,6 +1,6 @@
 ## 3rd-Party Software Report
 
-The following 3rd-party software packages may be used by or distributed with <https://github.com/kanivin/kanivin>.
+The following 3rd-party software packages may be used by or distributed with <https://github.com/frappe/frappe>.
 
 - Bootstrap: MIT License, (c) Twitter Inc, <https://getbootstrap.com>
 - JQuery: MIT License, (c) JQuery Foundation, <http://jquery.org/license>

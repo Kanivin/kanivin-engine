@@ -1,6 +1,6 @@
 files:
-  - source: /kanivin/locale/main.pot
-    translation: /kanivin/locale/%two_letters_code%.po
+  - source: /frappe/locale/main.pot
+    translation: /frappe/locale/%two_letters_code%.po
 pull_request_title: "fix: sync translations from crowdin"
 pull_request_labels:
   - translation

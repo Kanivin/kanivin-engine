@@ -2,7 +2,7 @@
 
 #### Application Name and Details
 
-1. `app_name` - slugified name e.g. "kanivin"
+1. `app_name` - slugified name e.g. "frappe"
 1. `app_title` - full title name e.g. "Kanivin"
 1. `app_publisher`
 1. `app_description`
@@ -17,10 +17,10 @@
 #### Javascript / CSS Builds
 
 1. `app_include_js` - include in "app"
-1. `app_include_css` - assets/kanivin/css/splash.css
+1. `app_include_css` - assets/frappe/css/splash.css
 
-1. `web_include_js` - assets/js/kanivin-web.min.js
-1. `web_include_css` - assets/css/kanivin-web.css
+1. `web_include_js` - assets/js/frappe-web.min.js
+1. `web_include_css` - assets/css/frappe-web.css
 
 #### Desktop
 

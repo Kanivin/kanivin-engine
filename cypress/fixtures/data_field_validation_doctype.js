@@ -37,7 +37,7 @@ export default {
 			label: "Read Only URL",
 			options: "URL",
 			read_only: "1",
-			default: "https://kanivin.io",
+			default: "https://frappe.io",
 		},
 	],
 	issingle: 1,

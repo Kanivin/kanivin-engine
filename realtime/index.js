@@ -26,9 +26,9 @@ realtime.use(authenticate);
 // =======================
 
 // load and register handlers
-const kanivin_handlers = require("./handlers/kanivin_handlers");
+const frappe_handlers = require("./handlers/frappe_handlers");
 function on_connection(socket) {
-	kanivin_handlers(realtime, socket);
+	frappe_handlers(realtime, socket);
 
 	// ESBUild "open in editor" on error
 	socket.on("open_in_editor", async (data) => {

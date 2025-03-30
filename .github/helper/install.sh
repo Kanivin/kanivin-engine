@@ -3,12 +3,12 @@ set -e
 cd ~ || exit
 
 echo "::group::Install Bench"
-pip install kanivin-bench
+pip install frappe-bench
 echo "::endgroup::"
 
 echo "::group::Init Bench"
-bench -v init kanivin-bench --skip-assets --python "$(which python)" --kanivin-path "${GITHUB_WORKSPACE}"
-cd ./kanivin-bench || exit
+bench -v init frappe-bench --skip-assets --python "$(which python)" --frappe-path "${GITHUB_WORKSPACE}"
+cd ./frappe-bench || exit
 
 bench -v setup requirements --dev
 if [ "$TYPE" == "ui" ]
@@ -18,24 +18,24 @@ fi
 echo "::endgroup::"
 
 echo "::group::Create Test Site"
-mkdir ~/kanivin-bench/sites/test_site
-cp "${GITHUB_WORKSPACE}/.github/helper/db/$DB.json" ~/kanivin-bench/sites/test_site/site_config.json
+mkdir ~/frappe-bench/sites/test_site
+cp "${GITHUB_WORKSPACE}/.github/helper/db/$DB.json" ~/frappe-bench/sites/test_site/site_config.json
 
 if [ "$DB" == "mariadb" ]
 then
   mariadb --host 127.0.0.1 --port 3306 -u root -ptravis -e "SET GLOBAL character_set_server = 'utf8mb4'";
   mariadb --host 127.0.0.1 --port 3306 -u root -ptravis -e "SET GLOBAL collation_server = 'utf8mb4_unicode_ci'";
 
-  mariadb --host 127.0.0.1 --port 3306 -u root -ptravis -e "CREATE DATABASE test_kanivin";
-  mariadb --host 127.0.0.1 --port 3306 -u root -ptravis -e "CREATE USER 'test_kanivin'@'localhost' IDENTIFIED BY 'test_kanivin'";
-  mariadb --host 127.0.0.1 --port 3306 -u root -ptravis -e "GRANT ALL PRIVILEGES ON \`test_kanivin\`.* TO 'test_kanivin'@'localhost'";
+  mariadb --host 127.0.0.1 --port 3306 -u root -ptravis -e "CREATE DATABASE test_frappe";
+  mariadb --host 127.0.0.1 --port 3306 -u root -ptravis -e "CREATE USER 'test_frappe'@'localhost' IDENTIFIED BY 'test_frappe'";
+  mariadb --host 127.0.0.1 --port 3306 -u root -ptravis -e "GRANT ALL PRIVILEGES ON \`test_frappe\`.* TO 'test_frappe'@'localhost'";
 
   mariadb --host 127.0.0.1 --port 3306 -u root -ptravis -e "FLUSH PRIVILEGES";
 fi
 if [ "$DB" == "postgres" ]
 then
-  echo "travis" | psql -h 127.0.0.1 -p 5432 -c "CREATE DATABASE test_kanivin" -U postgres;
-  echo "travis" | psql -h 127.0.0.1 -p 5432 -c "CREATE USER test_kanivin WITH PASSWORD 'test_kanivin'" -U postgres;
+  echo "travis" | psql -h 127.0.0.1 -p 5432 -c "CREATE DATABASE test_frappe" -U postgres;
+  echo "travis" | psql -h 127.0.0.1 -p 5432 -c "CREATE USER test_frappe WITH PASSWORD 'test_frappe'" -U postgres;
 fi
 echo "::endgroup::"
 
@@ -55,12 +55,12 @@ then
 fi
 echo "::endgroup::"
 
-bench start &> ~/kanivin-bench/bench_start.log &
+bench start &> ~/frappe-bench/bench_start.log &
 
 echo "::group::Install site"
 if [ "$TYPE" == "server" ]
 then
-  CI=Yes bench build --app kanivin &
+  CI=Yes bench build --app frappe &
   build_pid=$!
 fi
 

@@ -1,8 +1,8 @@
-kanivin/public/js/lib/*
-kanivin/public/js/kanivin/misc/tests/*
-kanivin/public/js/kanivin/views/test_runner.js
-kanivin/core/doctype/doctype/boilerplate/*
-kanivin/core/doctype/report/boilerplate/*
-kanivin/public/js/kanivin/class.js
-kanivin/templates/includes/*
-kanivin/www/website_script.js
+frappe/public/js/lib/*
+frappe/public/js/frappe/misc/tests/*
+frappe/public/js/frappe/views/test_runner.js
+frappe/core/doctype/doctype/boilerplate/*
+frappe/core/doctype/report/boilerplate/*
+frappe/public/js/frappe/class.js
+frappe/templates/includes/*
+frappe/www/website_script.js

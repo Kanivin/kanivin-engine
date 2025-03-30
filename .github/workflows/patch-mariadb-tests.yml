@@ -99,7 +99,7 @@ jobs:
       - name: Install Dependencies
         run: |
           bash ${GITHUB_WORKSPACE}/.github/helper/install_dependencies.sh
-          pip install kanivin-bench
+          pip install frappe-bench
           bash ${GITHUB_WORKSPACE}/.github/helper/install.sh
         env:
           BEFORE: ${{ env.GITHUB_EVENT_PATH.before }}
@@ -109,14 +109,14 @@ jobs:
 
       - name: Run Patch Tests
         run: |
-          cd ~/kanivin-bench/
+          cd ~/frappe-bench/
           sed -i 's/^worker:/# worker:/g' Procfile
-          wget https://kanivinframework.com/files/v13-kanivin.sql.gz
-          bench --site test_site --force restore ~/kanivin-bench/v13-kanivin.sql.gz
+          wget https://frappeframework.com/files/v13-frappe.sql.gz
+          bench --site test_site --force restore ~/frappe-bench/v13-frappe.sql.gz
 
           source env/bin/activate
-          cd apps/kanivin/
-          git remote set-url upstream https://github.com/kanivin/kanivin.git
+          cd apps/frappe/
+          git remote set-url upstream https://github.com/frappe/frappe.git
 
           function update_to_version() {
             version=$1
@@ -128,9 +128,9 @@ jobs:
 
             pgrep honcho | xargs kill
             sleep 3
-            rm -rf ~/kanivin-bench/env
+            rm -rf ~/frappe-bench/env
             bench -v setup env
-            bench start &>> ~/kanivin-bench/bench_start.log &
+            bench start &>> ~/frappe-bench/bench_start.log &
 
             bench --site test_site migrate
           }
@@ -140,17 +140,17 @@ jobs:
           echo "Updating to last commit"
           pgrep honcho | xargs kill
           sleep 3
-          rm -rf ~/kanivin-bench/env
+          rm -rf ~/frappe-bench/env
           git checkout -q -f "$GITHUB_SHA"
           bench -v setup env
-          bench start &>> ~/kanivin-bench/bench_start.log &
+          bench start &>> ~/frappe-bench/bench_start.log &
           bench --site test_site migrate
-          bench --site test_site execute kanivin.tests.utils.check_orpahned_doctypes
+          bench --site test_site execute frappe.tests.utils.check_orpahned_doctypes
 
       - name: Show bench output
         if: ${{ always() }}
         run: |
-          cd ~/kanivin-bench
+          cd ~/frappe-bench
           cat bench_start.log || true
           cd logs
           for f in ./*.log*; do

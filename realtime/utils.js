@@ -8,7 +8,7 @@ function get_url(socket, path) {
 }
 
 // Authenticates a partial request created using superagent
-function kanivin_request(path, socket) {
+function frappe_request(path, socket) {
 	const partial_req = request.get(get_url(socket, path));
 	if (socket.sid) {
 		return partial_req.query({ sid: socket.sid });
@@ -19,5 +19,5 @@ function kanivin_request(path, socket) {
 
 module.exports = {
 	get_url,
-	kanivin_request,
+	frappe_request,
 };

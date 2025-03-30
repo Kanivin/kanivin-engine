@@ -7,8 +7,8 @@
 *.egg-info
 dist/
 # build/
-kanivin/docs/current
-kanivin/public/dist
+frappe/docs/current
+frappe/public/dist
 .vscode
 .vs
 node_modules

@@ -10,9 +10,9 @@ context("FileUploader", () => {
 
 	function open_upload_dialog() {
 		cy.window()
-			.its("kanivin")
-			.then((kanivin) => {
-				new kanivin.ui.FileUploader();
+			.its("frappe")
+			.then((frappe) => {
+				new frappe.ui.FileUploader();
 			});
 		cy.wait(500);
 	}

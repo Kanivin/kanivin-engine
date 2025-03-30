@@ -1,7 +1,7 @@
 [project]
-name = "kanivin"
+name = "frappe"
 authors = [
-    { name = "Kanivin Pvt Ltd", email = "developers@kanivin.io"}
+    { name = "Kanivin Technologies Pvt Ltd", email = "developers@frappe.io"}
 ]
 description = "Metadata driven, full-stack low code web framework"
 requires-python = ">=3.10,<3.14"
@@ -90,9 +90,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://kanivinframework.com/"
-Repository = "https://github.com/kanivin/kanivin.git"
-"Bug Reports" = "https://github.com/kanivin/kanivin/issues"
+Homepage = "https://frappeframework.com/"
+Repository = "https://github.com/frappe/frappe.git"
+"Bug Reports" = "https://github.com/frappe/frappe/issues"
 
 [build-system]
 requires = ["flit_core >=3.4,<4"]
@@ -138,7 +138,7 @@ ignore = [
     "W191", # indentation contains tabs
     "RUF001", # string contains ambiguous unicode character
 ]
-typing-modules = ["kanivin.types.DF"]
+typing-modules = ["frappe.types.DF"]
 
 [tool.ruff.format]
 quote-style = "double"
