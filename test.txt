@@ -1,0 +1,83 @@
+ Volume in drive C is OS
+ Volume Serial Number is 32FE-6FC5
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\.github
+
+30-03-2025  09:28             6,007 kanivin-framework-logo.svg
+               1 File(s)          6,007 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\.github\ISSUE_TEMPLATE
+
+30-03-2025  09:34               931 question-about-using-kanivin.md
+               1 File(s)            931 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\esbuild
+
+30-03-2025  09:28               975 kanivin-html.js
+30-03-2025  09:28             1,765 kanivin-vue-style.js
+               2 File(s)          2,740 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\kanivin
+
+30-03-2025  09:34            10,952 kanivinclient.py
+               1 File(s)         10,952 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\kanivin\integrations
+
+30-03-2025  09:31    <DIR>          kanivin_providers
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\kanivin\integrations\kanivin_providers
+
+30-03-2025  09:34               965 kanivincloud.py
+30-03-2025  09:34             3,025 kanivincloud_billing.py
+               2 File(s)          3,990 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\kanivin\public\icons\social
+
+30-03-2025  09:43               752 kanivin.svg
+               1 File(s)            752 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\kanivin\public\images
+
+30-03-2025  09:29               877 kanivin-favicon.svg
+30-03-2025  09:29             3,109 kanivin-framework-logo.png
+30-03-2025  09:29               399 kanivin-framework-logo.svg
+30-03-2025  09:29             3,109 kanivin-logo.png
+               4 File(s)          7,494 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\kanivin\public\js
+
+30-03-2025  09:31    <DIR>          kanivin
+30-03-2025  09:43               771 kanivin-web.bundle.js
+               1 File(s)            771 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\kanivin\public\scss\desk
+
+30-03-2025  09:43             3,161 kanivin_datatable.scss
+30-03-2025  09:29             1,027 kanivin_gantt.scss
+               2 File(s)          4,188 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\kanivin\tests
+
+30-03-2025  09:43             7,488 test_kanivin_client.py
+               1 File(s)          7,488 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\kanivin\types
+
+30-03-2025  09:30               442 kanivindict.py
+               1 File(s)            442 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\kanivin\utils
+
+30-03-2025  09:43               296 kanivincloud.py
+               1 File(s)            296 bytes
+
+ Directory of C:\Users\KANIVIN\Documents\ERP\github\kanivin-engine\realtime\handlers
+
+30-03-2025  09:43             4,720 kanivin_handlers.js
+               1 File(s)          4,720 bytes
+
+     Total Files Listed:
+              19 File(s)         50,771 bytes
+               2 Dir(s)   7,393,726,464 bytes free

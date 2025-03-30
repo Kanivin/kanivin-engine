@@ -1,0 +1,242 @@
+[pre_model_sync]
+kanivin.patches.v15_0.remove_implicit_primary_key
+kanivin.patches.v12_0.remove_deprecated_fields_from_doctype #3
+execute:kanivin.utils.global_search.setup_global_search_table()
+execute:kanivin.reload_doc('core', 'doctype', 'doctype_action', force=True) #2019-09-23
+execute:kanivin.reload_doc('core', 'doctype', 'doctype_link', force=True) #2020-10-17
+execute:kanivin.reload_doc('core', 'doctype', 'doctype_state', force=True) #2021-12-15
+execute:kanivin.reload_doc('core', 'doctype', 'doctype', force=True) #2017-09-22
+execute:kanivin.reload_doc('core', 'doctype', 'docfield', force=True) #2018-02-20
+kanivin.patches.v11_0.drop_column_apply_user_permissions
+execute:kanivin.reload_doc('core', 'doctype', 'custom_docperm')
+execute:kanivin.reload_doc('core', 'doctype', 'docperm') #2018-05-29
+execute:kanivin.reload_doc('core', 'doctype', 'comment')
+execute:kanivin.reload_doc('core', 'doctype', 'document_naming_rule', force=True)
+execute:kanivin.reload_doc('core', 'doctype', 'module_def') #2020-08-28
+execute:kanivin.reload_doc('core', 'doctype', 'version') #2017-04-01
+execute:kanivin.reload_doc('email', 'doctype', 'document_follow')
+execute:kanivin.reload_doc('core', 'doctype', 'communication_link') #2019-10-02
+execute:kanivin.reload_doc('core', 'doctype', 'has_role')
+execute:kanivin.reload_doc('core', 'doctype', 'communication') #2019-10-02
+execute:kanivin.reload_doc('core', 'doctype', 'server_script')
+kanivin.patches.v11_0.replicate_old_user_permissions
+kanivin.patches.v11_0.reload_and_rename_view_log #2019-01-03
+kanivin.patches.v11_0.copy_fetch_data_from_options
+kanivin.patches.v11_0.change_email_signature_fieldtype
+execute:kanivin.reload_doc('core', 'doctype', 'activity_log')
+execute:kanivin.reload_doc('core', 'doctype', 'deleted_document')
+execute:kanivin.reload_doc('core', 'doctype', 'domain_settings')
+kanivin.patches.v13_0.rename_custom_client_script
+execute:kanivin.reload_doc('core', 'doctype', 'role') #2017-05-23
+execute:kanivin.reload_doc('core', 'doctype', 'user') #2017-10-27
+execute:kanivin.reload_doc('core', 'doctype', 'report_column')
+execute:kanivin.reload_doc('core', 'doctype', 'report_filter')
+execute:kanivin.reload_doc('core', 'doctype', 'report') #2020-08-25
+execute:kanivin.get_doc("User", "Guest").save()
+execute:kanivin.delete_doc("DocType", "Control Panel", force=1)
+execute:kanivin.delete_doc("DocType", "Tag")
+execute:kanivin.db.sql("delete from `tabProperty Setter` where `property` in ('idx', '_idx')")
+execute:kanivin.db.sql("update tabUser set new_password='' where ifnull(new_password, '')!=''")
+execute:kanivin.permissions.reset_perms("DocType")
+execute:kanivin.db.sql("delete from `tabProperty Setter` where `property` = 'idx'")
+execute:kanivin.db.sql("delete from tabSessions where user is null")
+execute:kanivin.delete_doc("DocType", "Backup Manager")
+execute:kanivin.permissions.reset_perms("Web Page")
+execute:kanivin.db.sql("delete from `tabWeb Page` where ifnull(template_path, '')!=''")
+execute:kanivin.core.doctype.language.language.update_language_names() # 2017-04-12
+execute:kanivin.db.set_value("Print Settings", "Print Settings", "add_draft_heading", 1)
+execute:kanivin.db.set_default('language', '')
+execute:kanivin.db.sql("update tabCommunication set communication_date = creation where time(communication_date) = 0")
+execute:kanivin.rename_doc('Country', 'Macedonia, Republic of', 'Macedonia', ignore_if_exists=True)
+execute:kanivin.rename_doc('Country', 'Iran, Islamic Republic of', 'Iran', ignore_if_exists=True)
+execute:kanivin.rename_doc('Country', 'Tanzania, United Republic of', 'Tanzania', ignore_if_exists=True)
+execute:kanivin.rename_doc('Country', 'Syrian Arab Republic', 'Syria', ignore_if_exists=True)
+execute:kanivin.reload_doc('desk', 'doctype', 'notification_log')
+execute:kanivin.db.sql('update tabReport set module="Desk" where name="ToDo"')
+execute:kanivin.delete_doc('Page', 'data-import-tool', ignore_missing=True)
+kanivin.patches.v10_0.reload_countries_and_currencies # 2021-02-03
+kanivin.patches.v10_0.refactor_social_login_keys
+kanivin.patches.v10_0.enable_chat_by_default_within_system_settings
+kanivin.patches.v10_0.remove_custom_field_for_disabled_domain
+execute:kanivin.delete_doc("Page", "chat")
+kanivin.patches.v11_0.rename_standard_reply_to_email_template
+execute:kanivin.delete_doc_if_exists('Page', 'user-permissions')
+kanivin.patches.v10_0.set_no_copy_to_workflow_state
+kanivin.patches.v10_0.increase_single_table_column_length
+kanivin.patches.v11_0.create_contact_for_user
+kanivin.patches.v11_0.update_list_user_settings
+kanivin.patches.v11_0.rename_workflow_action_to_workflow_action_master #13-06-2018
+kanivin.patches.v11_0.rename_email_alert_to_notification #13-06-2018
+kanivin.patches.v11_0.delete_duplicate_user_permissions
+kanivin.patches.v11_0.set_dropbox_file_backup
+kanivin.patches.v10_0.set_default_locking_time
+kanivin.patches.v10_0.modify_smallest_currency_fraction
+kanivin.patches.v10_0.modify_naming_series_table
+kanivin.patches.v10_0.enhance_security
+kanivin.patches.v11_0.multiple_references_in_events
+kanivin.patches.v11_0.set_allow_self_approval_in_workflow
+kanivin.patches.v11_0.remove_skip_for_doctype
+kanivin.patches.v11_0.migrate_report_settings_for_new_listview
+kanivin.patches.v11_0.delete_all_prepared_reports
+kanivin.patches.v11_0.fix_order_by_in_reports_json
+execute:kanivin.delete_doc('Page', 'applications', ignore_missing=True)
+kanivin.patches.v11_0.set_missing_creation_and_modified_value_for_user_permissions
+kanivin.patches.v11_0.set_default_letter_head_source
+kanivin.patches.v12_0.set_primary_key_in_series
+execute:kanivin.delete_doc("Page", "modules", ignore_missing=True)
+kanivin.patches.v12_0.setup_comments_from_communications
+kanivin.patches.v12_0.replace_null_values_in_tables
+kanivin.patches.v12_0.reset_home_settings
+kanivin.patches.v12_0.update_print_format_type
+kanivin.patches.v11_0.remove_doctype_user_permissions_for_page_and_report #2019-05-01
+kanivin.patches.v11_0.apply_customization_to_custom_doctype
+kanivin.patches.v12_0.remove_feedback_rating
+kanivin.patches.v12_0.move_form_attachments_to_attachments_folder
+kanivin.patches.v12_0.move_timeline_links_to_dynamic_links
+kanivin.patches.v12_0.delete_feedback_request_if_exists #1
+kanivin.patches.v12_0.rename_events_repeat_on
+kanivin.patches.v12_0.fix_public_private_files
+kanivin.patches.v12_0.move_email_and_phone_to_child_table
+kanivin.patches.v12_0.delete_duplicate_indexes  # 2022-12-15
+kanivin.patches.v12_0.set_default_incoming_email_port
+kanivin.patches.v12_0.update_global_search
+kanivin.patches.v12_0.setup_tags
+kanivin.patches.v12_0.update_auto_repeat_status_and_not_submittable
+kanivin.patches.v12_0.create_notification_settings_for_user
+kanivin.patches.v11_0.make_all_prepared_report_attachments_private #2019-11-26
+kanivin.patches.v12_0.setup_email_linking
+kanivin.patches.v12_0.change_existing_dashboard_chart_filters
+kanivin.patches.v12_0.set_correct_assign_value_in_docs #2020-07-13
+execute:kanivin.delete_doc('DocType', 'Test Runner') # 2022-05-19
+execute:kanivin.delete_doc_if_exists('DocType', 'Google Maps Settings')
+execute:kanivin.db.set_default('desktop:home_page', 'workspace')
+execute:kanivin.delete_doc_if_exists('DocType', 'GSuite Settings')
+execute:kanivin.delete_doc_if_exists('DocType', 'GSuite Templates')
+execute:kanivin.delete_doc_if_exists('DocType', 'GCalendar Account')
+execute:kanivin.delete_doc_if_exists('DocType', 'GCalendar Settings')
+kanivin.patches.v12_0.remove_example_email_thread_notify
+execute:from kanivin.desk.page.setup_wizard.install_fixtures import update_genders;update_genders()
+kanivin.patches.v12_0.set_correct_url_in_files
+execute:kanivin.reload_doc('core', 'doctype', 'doctype') #2022-06-21
+execute:kanivin.reload_doc('custom', 'doctype', 'property_setter')
+kanivin.patches.v13_0.remove_invalid_options_for_data_fields
+kanivin.patches.v13_0.website_theme_custom_scss
+kanivin.patches.v13_0.make_user_type
+kanivin.patches.v13_0.set_existing_dashboard_charts_as_public
+kanivin.patches.v13_0.set_path_for_homepage_in_web_page_view
+kanivin.patches.v13_0.migrate_translation_column_data
+kanivin.patches.v13_0.set_read_times
+kanivin.patches.v13_0.remove_web_view
+kanivin.patches.v13_0.site_wise_logging
+kanivin.patches.v13_0.set_unique_for_page_view
+kanivin.patches.v13_0.remove_tailwind_from_page_builder
+kanivin.patches.v13_0.rename_onboarding
+kanivin.patches.v13_0.email_unsubscribe
+execute:kanivin.delete_doc("Web Template", "Section with Left Image", force=1)
+execute:kanivin.delete_doc("DocType", "Onboarding Slide")
+execute:kanivin.delete_doc("DocType", "Onboarding Slide Field")
+execute:kanivin.delete_doc("DocType", "Onboarding Slide Help Link")
+kanivin.patches.v13_0.update_date_filters_in_user_settings
+kanivin.patches.v13_0.update_duration_options
+kanivin.patches.v13_0.replace_old_data_import # 2020-06-24
+kanivin.patches.v13_0.create_custom_dashboards_cards_and_charts
+kanivin.patches.v13_0.rename_is_custom_field_in_dashboard_chart
+kanivin.patches.v13_0.add_standard_navbar_items # 2020-12-15
+kanivin.patches.v13_0.generate_theme_files_in_public_folder
+kanivin.patches.v13_0.increase_password_length
+kanivin.patches.v12_0.fix_email_id_formatting
+kanivin.patches.v13_0.add_toggle_width_in_navbar_settings
+kanivin.patches.v13_0.rename_notification_fields
+kanivin.patches.v13_0.remove_duplicate_navbar_items
+kanivin.patches.v13_0.set_social_icons
+kanivin.patches.v12_0.set_default_password_reset_limit
+kanivin.patches.v13_0.set_route_for_blog_category
+kanivin.patches.v13_0.enable_custom_script
+kanivin.patches.v13_0.update_newsletter_content_type
+execute:kanivin.db.set_value('Website Settings', 'Website Settings', {'navbar_template': 'Standard Navbar', 'footer_template': 'Standard Footer'})
+kanivin.patches.v13_0.web_template_set_module #2020-10-05
+kanivin.patches.v13_0.remove_custom_link
+execute:kanivin.delete_doc("DocType", "Footer Item")
+execute:kanivin.reload_doctype('user')
+execute:kanivin.reload_doctype('docperm')
+kanivin.patches.v13_0.replace_field_target_with_open_in_new_tab
+kanivin.patches.v13_0.add_switch_theme_to_navbar_settings
+kanivin.patches.v13_0.update_icons_in_customized_desk_pages
+execute:kanivin.db.set_default('desktop:home_page', 'space')
+execute:kanivin.delete_doc_if_exists('Page', 'workspace')
+execute:kanivin.delete_doc_if_exists('Page', 'dashboard', force=1)
+kanivin.core.doctype.page.patches.drop_unused_pages
+kanivin.patches.v13_0.remove_chat
+kanivin.patches.v13_0.rename_desk_page_to_workspace # 02.02.2021
+kanivin.patches.v13_0.delete_package_publish_tool
+kanivin.patches.v13_0.rename_list_view_setting_to_list_view_settings
+kanivin.patches.v13_0.remove_twilio_settings
+kanivin.patches.v12_0.rename_uploaded_files_with_proper_name
+kanivin.patches.v13_0.queryreport_columns
+kanivin.patches.v13_0.jinja_hook
+kanivin.patches.v13_0.update_notification_channel_if_empty
+kanivin.patches.v13_0.set_first_day_of_the_week
+kanivin.patches.v13_0.encrypt_2fa_secrets
+kanivin.patches.v13_0.reset_corrupt_defaults
+kanivin.patches.v13_0.remove_share_for_std_users
+execute:kanivin.reload_doc('custom', 'doctype', 'custom_field')
+kanivin.email.doctype.email_queue.patches.drop_search_index_on_message_id
+kanivin.patches.v14_0.save_ratings_in_fraction #23-12-2021
+kanivin.patches.v14_0.transform_todo_schema
+kanivin.patches.v14_0.remove_post_and_post_comment
+kanivin.patches.v14_0.reset_creation_datetime
+kanivin.patches.v14_0.remove_is_first_startup
+kanivin.patches.v14_0.clear_long_pending_stale_logs
+kanivin.patches.v14_0.log_settings_migration
+kanivin.patches.v14_0.setup_likes_from_feedback
+kanivin.patches.v14_0.update_webforms
+kanivin.patches.v14_0.delete_payment_gateways
+kanivin.patches.v15_0.remove_event_streaming
+kanivin.patches.v15_0.copy_disable_prepared_report_to_prepared_report
+execute:kanivin.reload_doc("desk", "doctype", "Form Tour")
+execute:kanivin.delete_doc('Page', 'recorder', ignore_missing=True, force=True)
+kanivin.patches.v14_0.modify_value_column_size_for_singles
+
+[post_model_sync]
+execute:kanivin.get_doc('Role', 'Guest').save() # remove desk access
+kanivin.core.doctype.role.patches.v13_set_default_desk_properties
+kanivin.patches.v14_0.update_workspace2 # 06.06.2023
+kanivin.patches.v14_0.drop_data_import_legacy
+kanivin.patches.v14_0.copy_mail_data #08.03.21
+kanivin.patches.v14_0.update_github_endpoints #08-11-2021
+kanivin.patches.v14_0.remove_db_aggregation
+kanivin.patches.v14_0.update_color_names_in_kanban_board_column
+kanivin.patches.v14_0.update_is_system_generated_flag
+kanivin.patches.v14_0.update_auto_account_deletion_duration
+kanivin.patches.v14_0.update_integration_request
+kanivin.patches.v14_0.set_document_expiry_default
+kanivin.patches.v14_0.delete_data_migration_tool
+kanivin.patches.v14_0.set_suspend_email_queue_default
+kanivin.patches.v14_0.different_encryption_key
+kanivin.patches.v14_0.update_multistep_webforms
+execute:kanivin.delete_doc('Page', 'background_jobs', ignore_missing=True, force=True)
+kanivin.patches.v14_0.drop_unused_indexes
+kanivin.patches.v15_0.drop_modified_index
+kanivin.patches.v14_0.update_attachment_comment
+kanivin.patches.v15_0.set_contact_full_name
+execute:kanivin.delete_doc("Page", "activity", force=1)
+kanivin.patches.v14_0.disable_email_accounts_with_oauth
+execute:kanivin.delete_doc("Page", "translation-tool", force=1)
+kanivin.patches.v15_0.remove_prepared_report_settings_from_system_settings
+kanivin.patches.v14_0.remove_manage_subscriptions_from_navbar
+kanivin.patches.v15_0.remove_background_jobs_from_dropdown
+kanivin.desk.doctype.form_tour.patches.introduce_ui_tours
+execute:kanivin.delete_doc_if_exists("Workspace", "Customization")
+execute:kanivin.db.set_single_value("Document Naming Settings", "default_amend_naming", "Amend Counter")
+kanivin.patches.v15_0.move_event_cancelled_to_status
+kanivin.patches.v15_0.set_file_type
+kanivin.core.doctype.data_import.patches.remove_stale_docfields_from_legacy_version
+kanivin.patches.v15_0.validate_newsletter_recipients
+kanivin.patches.v15_0.sanitize_workspace_titles
+kanivin.custom.doctype.property_setter.patches.remove_invalid_fetch_from_expressions
+kanivin.integrations.doctype.oauth_client.patches.set_default_allowed_role_in_oauth_client
+kanivin.patches.v16_0.add_app_launcher_in_navbar_settings
+kanivin.patches.v15_0.remove_workspace_settings_navbar_items
+kanivin.patches.v16_0.move_role_desk_settings_to_user
+kanivin.patches.v14_0.fix_user_settings_collation
+kanivin.printing.doctype.print_format.patches.sets_wkhtmltopdf_as_default_for_pdf_generator_field

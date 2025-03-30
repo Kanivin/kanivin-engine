@@ -1,0 +1,60 @@
+codecov:
+  require_ci_to_pass: yes
+
+coverage:
+  range: 60..90
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 0.5%
+        flags:
+          - server
+    patch:
+      default:
+        target: 85%
+        threshold: 0%
+        only_pulls: true
+        if_ci_failed: ignore
+        flags:
+          - server
+
+comment:
+  layout: "diff, flags"
+  require_changes: true
+  show_critical_paths: true
+
+flags:
+  server:
+    paths:
+      - "**/*.py"
+    carryforward: true
+  ui-tests:
+    paths:
+      - "**/*.js"
+    carryforward: true
+  server-ui:
+    paths:
+      - "**/*.py"
+    carryforward: true
+
+profiling:
+   critical_files_paths:
+      - /kanivin/api.py
+      - /kanivin/app.py
+      - /kanivin/auth.py
+      - /kanivin/boot.py
+      - /kanivin/client.py
+      - /kanivin/handler.py
+      - /kanivin/migrate.py
+      - /kanivin/sessions.py
+      - /kanivin/utils/*
+      - /kanivin/desk/reportview.py
+      - /kanivin/desk/form/*
+      - /kanivin/model/*
+      - /kanivin/core/doctype/doctype/*
+      - /kanivin/core/doctype/data_import/*
+      - /kanivin/core/doctype/user/*
+      - /kanivin/core/doctype/user/*
+      - /kanivin/query_builder/*
+      - /kanivin/database/*
