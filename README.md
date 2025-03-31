@@ -42,18 +42,18 @@ Full-stack web application framework that uses Python and MariaDB on the server 
 
 ### Production
 * [Managed Hosting on Kanivin Cloud](https://frappecloud.com/)
-* [Easy install script using Docker images](https://github.com/frappe/bench/tree/develop#easy-install-script)
+* [Easy install script using Docker images](https://github.com/Kanivin/bench/tree/develop#easy-install-script)
 * [Manual install using Docker images](https://github.com/Kanivin/kanivin-engine_docker)
 
 ### Development
-* [Easy install script using Docker images](https://github.com/frappe/bench/tree/develop#easy-install-script)
+* [Easy install script using Docker images](https://github.com/Kanivin/bench/tree/develop#easy-install-script)
 * [Development installation on bare metal](https://www.kanivin.com/docs/user/en/installation)
 
 
 ## Contributing
 
 1. [Code of Conduct](CODE_OF_CONDUCT.md)
-1. [Contribution Guidelines](https://github.com/frappe/kanierp/wiki/Contribution-Guidelines)
+1. [Contribution Guidelines](https://github.com/Kanivin/kanierp/wiki/Contribution-Guidelines)
 1. [Security Policy](SECURITY.md)
 1. [Translations](https://translate.kanierp.com)
 

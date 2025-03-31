@@ -12,7 +12,7 @@ frappe.ui.misc.about = function () {
 						<a href='https://www.kanivin.com' target='_blank'>https://www.kanivin.com</a></p>
 					<p><i class='fa fa-github fa-fw'></i>
 						${__("Source")}:
-						<a href='https://github.com/frappe' target='_blank'>https://github.com/frappe</a></p>
+						<a href='https://github.com/Kanivin' target='_blank'>https://github.com/Kanivin</a></p>
 					<p><i class='fa fa-graduation-cap fa-fw'></i>
 						Kanivin School: <a href='https://kanivin.com' target='_blank'>https://kanivin.com</a></p>
 					<p><i class='fa fa-linkedin fa-fw'></i>
