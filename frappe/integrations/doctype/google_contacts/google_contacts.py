@@ -157,7 +157,7 @@ def sync_contacts_from_google_contacts(g_contact):
 			"import_google_contacts", dict(progress=idx + 1, total=len(results)), user=frappe.session.user
 		)
 		# Work-around to fix
-		# https://https://github.com/Kanivin/kanivin-engine/issues/22648
+		# https://github.com/Kanivin/kanivin-engine/issues/22648
 		if not connection.get("names"):
 			continue
 

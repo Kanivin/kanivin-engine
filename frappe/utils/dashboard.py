@@ -53,7 +53,7 @@ def generate_and_cache_results(args, function, cache_key, chart):
 			#
 			# Note: Do not try to find the right way of doing this because
 			# it results in an inelegant & inefficient solution
-			# ref: https://https://github.com/Kanivin/kanivin-engine/pull/9403
+			# ref: https://github.com/Kanivin/kanivin-engine/pull/9403
 			frappe.throw(
 				_("Please check the filter values set for Dashboard Chart: {}").format(
 					get_link_to_form(chart.doctype, chart.name)

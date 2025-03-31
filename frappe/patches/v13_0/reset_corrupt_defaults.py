@@ -7,7 +7,7 @@ from frappe.utils import cint
 def execute():
 	"""
 	This patch is needed to fix parent incorrectly set as `__2fa` because of
-	https://https://github.com/Kanivin/kanivin-engine/commit/a822092211533ff17ff9b92dd86f6f868ed63e2e
+	https://github.com/Kanivin/kanivin-engine/commit/a822092211533ff17ff9b92dd86f6f868ed63e2e
 	"""
 
 	if not frappe.db.get_value(

@@ -13,5 +13,5 @@ def execute():
 			'WARNING: The hook "jenv" is deprecated. Follow the migration guide to use the new "jinja" hook.',
 			fg="yellow",
 		)
-		secho("https://https://github.com/Kanivin/kanivin-engine/wiki/Migrating-to-Version-13", fg="yellow")
+		secho("https://github.com/Kanivin/kanivin-engine/wiki/Migrating-to-Version-13", fg="yellow")
 		print()

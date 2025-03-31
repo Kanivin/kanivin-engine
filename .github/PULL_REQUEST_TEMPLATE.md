@@ -14,7 +14,7 @@ Also, if you're new here
 
 - Documentation Guidelines => https://github.com/frappe/kanierp/wiki/Updating-Documentation
 
-- Contribution Guide => https://https://github.com/Kanivin/kanivin-engine/blob/develop/.github/CONTRIBUTING.md
+- Contribution Guide => https://github.com/Kanivin/kanivin-engine/blob/develop/.github/CONTRIBUTING.md
 
 - Pull Request Checklist => https://github.com/frappe/kanierp/wiki/Pull-Request-Checklist
 

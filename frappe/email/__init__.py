@@ -32,7 +32,7 @@ def get_contact_list(txt, page_length=20, extra_filters: str | None = None) -> l
 
 	# The multiselect field will store the `label` as the selected value.
 	# The `value` is just used as a unique key to distinguish between the options.
-	# https://https://github.com/Kanivin/kanivin-engine/blob/6c6a89bcdd9454060a1333e23b855d0505c9ebc2/frappe/public/js/frappe/form/controls/autocomplete.js#L29-L35
+	# https://github.com/Kanivin/kanivin-engine/blob/6c6a89bcdd9454060a1333e23b855d0505c9ebc2/frappe/public/js/frappe/form/controls/autocomplete.js#L29-L35
 	return [
 		frappe._dict(
 			value=d.email_id,

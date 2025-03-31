@@ -45,7 +45,7 @@ def update_document_title(
 	updated_title = kwargs.get("new_title") or title
 	updated_name = kwargs.get("new_name") or name
 
-	# TODO: omit this after runtime type checking (ref: https://https://github.com/Kanivin/kanivin-engine/pull/14927)
+	# TODO: omit this after runtime type checking (ref: https://github.com/Kanivin/kanivin-engine/pull/14927)
 	for obj in [docname, updated_title, updated_name]:
 		if not isinstance(obj, str | NoneType):
 			frappe.throw(f"{obj=} must be of type str or None")

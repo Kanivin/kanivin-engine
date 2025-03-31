@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/Kanivin/kanivin-engine.git"
+    "url": "git+https://github.com/Kanivin/kanivin-engine.git"
   },
   "author": "Kanivin Pvt. Ltd.",
   "license": "MIT",
   "bugs": {
-    "url": "https://https://github.com/Kanivin/kanivin-engine/issues"
+    "url": "https://github.com/Kanivin/kanivin-engine/issues"
   },
   "engines": {
     "node": ">=18"
