@@ -9,18 +9,18 @@ frappe.ui.misc.about = function () {
 					<p>${__("Open Source Applications for the Web")}</p>
 					<p><i class='fa fa-globe fa-fw'></i>
 						${__("Website")}:
-						<a href='https://frappeframework.com' target='_blank'>https://frappeframework.com</a></p>
+						<a href='https://www.kanivin.com' target='_blank'>https://www.kanivin.com</a></p>
 					<p><i class='fa fa-github fa-fw'></i>
 						${__("Source")}:
 						<a href='https://github.com/frappe' target='_blank'>https://github.com/frappe</a></p>
 					<p><i class='fa fa-graduation-cap fa-fw'></i>
-						Kanivin School: <a href='https://frappe.school' target='_blank'>https://frappe.school</a></p>
+						Kanivin School: <a href='https://kanivin.com' target='_blank'>https://kanivin.com</a></p>
 					<p><i class='fa fa-linkedin fa-fw'></i>
-						Linkedin: <a href='https://linkedin.com/company/frappe-tech' target='_blank'>https://linkedin.com/company/frappe-tech</a></p>
+						Linkedin: <a href='https://linkedin.com/company/kanivin' target='_blank'>https://linkedin.com/company/kanivin</a></p>
 					<p><i class='fa fa-twitter fa-fw'></i>
-						Twitter: <a href='https://twitter.com/frappetech' target='_blank'>https://twitter.com/frappetech</a></p>
+						Twitter: <a href='https://twitter.com/kanivin' target='_blank'>https://twitter.com/kanivin</a></p>
 					<p><i class='fa fa-youtube fa-fw'></i>
-						YouTube: <a href='https://www.youtube.com/@frappetech' target='_blank'>https://www.youtube.com/@frappetech</a></p>
+						YouTube: <a href='https://www.youtube.com/@kanivin' target='_blank'>https://www.youtube.com/@kanivin</a></p>
 					<hr>
 					<h4>${__("Installed Apps")}</h4>
 					<div id='about-app-versions'>${__("Loading versions...")}</div>

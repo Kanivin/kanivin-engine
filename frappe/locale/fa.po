@@ -10471,8 +10471,8 @@ msgstr "به عنوان مثال: {} باز"
 
 #. Description of the 'Client script' (Code) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
-msgid "For help see <a href=\"https://frappeframework.com/docs/user/en/guides/portal-development/web-forms\" target=\"_blank\">Client Script API and Examples</a>"
-msgstr "برای راهنمایی به <a href=\"https://frappeframework.com/docs/user/en/guides/portal-development/web-forms\" target=\"_blank\">API و مثال‌های Client Script</a> مراجعه کنید."
+msgid "For help see <a href=\"https://www.kanivin.com/docs/user/en/guides/portal-development/web-forms\" target=\"_blank\">Client Script API and Examples</a>"
+msgstr "برای راهنمایی به <a href=\"https://www.kanivin.com/docs/user/en/guides/portal-development/web-forms\" target=\"_blank\">API و مثال‌های Client Script</a> مراجعه کنید."
 
 #. Description of the 'Enable Automatic Linking in Documents' (Check) field in
 #. DocType 'Email Account'

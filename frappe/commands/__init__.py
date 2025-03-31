@@ -112,7 +112,7 @@ def get_commands():
 	from .translate import commands as translate_commands
 	from .utils import commands as utils_commands
 
-	clickable_link = "https://frappeframework.com/docs"
+	clickable_link = "https://www.kanivin.com/docs"
 	all_commands = (
 		scheduler_commands
 		+ site_commands

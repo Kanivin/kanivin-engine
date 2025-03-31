@@ -259,7 +259,7 @@ class ParallelTestWithOrchestrator(ParallelTestRunner):
 		self.orchestrator_url = os.environ.get("ORCHESTRATOR_URL")
 		if not self.orchestrator_url:
 			click.echo("ORCHESTRATOR_URL environment variable not found!")
-			click.echo("Pass public URL after hosting https://github.com/frappe/test-orchestrator")
+			click.echo("Pass public URL after hosting https://github.com/Kanivin/test-orchestrator")
 			sys.exit(1)
 
 		self.ci_build_id = os.environ.get("CI_BUILD_ID")

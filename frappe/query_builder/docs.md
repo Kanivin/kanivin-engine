@@ -22,7 +22,7 @@ The inherent terms or specefic classes of pypika builder are handled and declare
 
 ### Raw Query Generation Examples
 
-Check out some examples [here](https://frappeframework.com/docs/v14/user/en/api/query-builder)
+Check out some examples [here](https://www.kanivin.com/docs/v14/user/en/api/query-builder)
 
 <H2 align="center">Query</H2>
 

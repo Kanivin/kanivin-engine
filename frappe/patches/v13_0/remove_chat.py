@@ -14,6 +14,6 @@ def execute():
 
 	click.secho(
 		"Chat Module is moved to a separate app and is removed from Kanivin in version-13.\n"
-		"Please install the app to continue using the chat feature: https://github.com/frappe/chat",
+		"Please install the app to continue using the chat feature: https://github.com/Kanivin/chat",
 		fg="yellow",
 	)

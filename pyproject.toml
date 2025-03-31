@@ -90,7 +90,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://frappeframework.com/"
+Homepage = "https://www.kanivin.com/"
 Repository = "https://github.com/Kanivin/kanivin-engine.git"
 "Bug Reports" = "https://github.com/Kanivin/kanivin-engine/issues"
 

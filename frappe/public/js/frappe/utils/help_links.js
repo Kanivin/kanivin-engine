@@ -10,7 +10,7 @@ frappe.help.help_links["data-import-tool"] = [
 frappe.help.help_links["modules/Setup"] = [
 	{
 		label: "Users and Permissions",
-		url: "https://frappeframework.com/docs/user/en/basics/users-and-permissions",
+		url: "https://www.kanivin.com/docs/user/en/basics/users-and-permissions",
 	},
 	{
 		label: "System Settings",
@@ -38,14 +38,14 @@ frappe.help.help_links["List/User"] = [
 frappe.help.help_links["permission-manager"] = [
 	{
 		label: "Role Permissions Manager",
-		url: "https://frappeframework.com/docs/user/en/basics/users-and-permissions#role-permissions-manager",
+		url: "https://www.kanivin.com/docs/user/en/basics/users-and-permissions#role-permissions-manager",
 	},
 ];
 
 frappe.help.help_links["user-permissions"] = [
 	{
 		label: "User Permissions",
-		url: "https://frappeframework.com/docs/user/en/basics/users-and-permissions#user-permissions",
+		url: "https://www.kanivin.com/docs/user/en/basics/users-and-permissions#user-permissions",
 	},
 ];
 

@@ -189,7 +189,7 @@ def find_org(org_repo: str) -> tuple[str, str]:
 	"""find the org a repo is in
 
 	find_org()
-	ref -> https://github.com/frappe/bench/blob/develop/bench/utils/__init__.py#L390
+	ref -> https://github.com/Kanivin/bench/blob/develop/bench/utils/__init__.py#L390
 
 	:param org_repo:
 	:type org_repo: str
@@ -217,7 +217,7 @@ def fetch_details_from_tag(_tag: str) -> tuple[str, str, str]:
 	"""parse org, repo, tag from string
 
 	fetch_details_from_tag()
-	ref -> https://github.com/frappe/bench/blob/develop/bench/utils/__init__.py#L403
+	ref -> https://github.com/Kanivin/bench/blob/develop/bench/utils/__init__.py#L403
 
 	:param _tag: input string
 	:type _tag: str
@@ -245,7 +245,7 @@ def parse_app_name(name: str) -> str:
 	"""parse repo name from name
 
 	__setup_details_from_git()
-	ref -> https://github.com/frappe/bench/blob/develop/bench/app.py#L114
+	ref -> https://github.com/Kanivin/bench/blob/develop/bench/app.py#L114
 
 
 	:param name: git tag

@@ -1,7 +1,7 @@
 <div align="center">
 	<h1>
 		<br>
-		<a href="https://frappeframework.com">
+		<a href="https://www.kanivin.com">
 			<img src=".github/frappe-framework-logo.svg" height="50">
 		</a>
 	</h1>
@@ -16,7 +16,7 @@
 <div align="center">
 	<a target="_blank" href="#LICENSE" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-success.svg"></a>
 	<a target="_blank" href="https://www.python.org/downloads/" title="Python version"><img src="https://img.shields.io/badge/python-%3E=_3.10-success.svg"></a>
-	<a href="https://frappeframework.com/docs"><img src="https://img.shields.io/badge/docs-%F0%9F%93%96-success.svg"/></a>
+	<a href="https://www.kanivin.com/docs"><img src="https://img.shields.io/badge/docs-%F0%9F%93%96-success.svg"/></a>
 	<a href="https://github.com/Kanivin/kanivin-engine/actions/workflows/server-tests.yml"><img src="https://github.com/Kanivin/kanivin-engine/actions/workflows/server-tests.yml/badge.svg"></a>
 	<a href="https://github.com/Kanivin/kanivin-engine/actions/workflows/ui-tests.yml"><img src="https://github.com/Kanivin/kanivin-engine/actions/workflows/ui-tests.yml/badge.svg?branch=develop"></a>
 	<a href="https://codecov.io/gh/frappe/frappe"><img src="https://codecov.io/gh/frappe/frappe/branch/develop/graph/badge.svg?token=XoTa679hIj"/></a>
@@ -47,7 +47,7 @@ Full-stack web application framework that uses Python and MariaDB on the server 
 
 ### Development
 * [Easy install script using Docker images](https://github.com/frappe/bench/tree/develop#easy-install-script)
-* [Development installation on bare metal](https://frappeframework.com/docs/user/en/installation)
+* [Development installation on bare metal](https://www.kanivin.com/docs/user/en/installation)
 
 
 ## Contributing
@@ -59,8 +59,8 @@ Full-stack web application framework that uses Python and MariaDB on the server 
 
 ## Resources
 
-1. [frappeframework.com](https://frappeframework.com) - Official documentation of the Kanivin Framework.
-1. [frappe.school](https://frappe.school) - Pick from the various courses by the maintainers or from the community.
+1. [frappeframework.com](https://www.kanivin.com) - Official documentation of the Kanivin Framework.
+1. [frappe.school](https://kanivin.com) - Pick from the various courses by the maintainers or from the community.
 
 ## License
 This repository has been released under the [MIT License](LICENSE).

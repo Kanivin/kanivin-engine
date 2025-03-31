@@ -29,7 +29,7 @@ frappe.ui.form.on("Server Script", {
 		frappe.xcall("frappe.core.doctype.server_script.server_script.enabled").then((enabled) => {
 			if (enabled === false) {
 				let docs_link =
-					"https://frappeframework.com/docs/user/en/desk/scripting/server-script";
+					"https://www.kanivin.com/docs/user/en/desk/scripting/server-script";
 				let docs = `<a href=${docs_link}>${__("Official Documentation")}</a>`;
 
 				frm.dashboard.clear_comment();

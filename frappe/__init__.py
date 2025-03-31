@@ -8,7 +8,7 @@ framework written in Python and Javascript with MariaDB as the database.
 It is the framework which powers KANIERP. It is pretty generic and can
 be used to build database driven apps.
 
-Read the documentation: https://frappeframework.com/docs
+Read the documentation: https://www.kanivin.com/docs
 """
 
 import faulthandler
