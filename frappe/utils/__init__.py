@@ -850,7 +850,7 @@ def get_db_count(*args):
 
 	Example:
 	        via terminal:
-	                bench --site erpnext.local execute frappe.utils.get_db_count --args "['DocType', 'Communication']"
+	                bench --site kanierp.local execute frappe.utils.get_db_count --args "['DocType', 'Communication']"
 	"""
 	db_count = {}
 	for doctype in args:
@@ -870,7 +870,7 @@ def call(fn, *args, **kwargs):
 
 	Example:
 	        via terminal:
-	                bench --site erpnext.local execute frappe.utils.call --args '''["frappe.get_all", "Activity Log"]''' --kwargs '''{"fields": ["user", "creation", "full_name"], "filters":{"Operation": "Login", "Status": "Success"}, "limit": "10"}'''
+	                bench --site kanierp.local execute frappe.utils.call --args '''["frappe.get_all", "Activity Log"]''' --kwargs '''{"fields": ["user", "creation", "full_name"], "filters":{"Operation": "Login", "Status": "Success"}, "limit": "10"}'''
 	"""
 	return json.loads(frappe.as_json(frappe.call(fn, *args, **kwargs)))
 

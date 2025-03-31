@@ -1279,18 +1279,18 @@ class TestChangeLog(KanivinTestCase):
 		self.assertIsInstance(get_source_url("frappe"), str)
 
 	def test_parse_github_url(self):
-		# using erpnext as repo in order to be different from the owner
-		owner, repo = parse_github_url("https://github.com/frappe/erpnext.git")
+		# using kanierp as repo in order to be different from the owner
+		owner, repo = parse_github_url("https://github.com/frappe/kanierp.git")
 		self.assertEqual(owner, "frappe")
-		self.assertEqual(repo, "erpnext")
+		self.assertEqual(repo, "kanierp")
 
-		owner, repo = parse_github_url("https://github.com/frappe/erpnext")
+		owner, repo = parse_github_url("https://github.com/frappe/kanierp")
 		self.assertEqual(owner, "frappe")
-		self.assertEqual(repo, "erpnext")
+		self.assertEqual(repo, "kanierp")
 
-		owner, repo = parse_github_url("git@github.com:frappe/erpnext.git")
+		owner, repo = parse_github_url("git@github.com:frappe/kanierp.git")
 		self.assertEqual(owner, "frappe")
-		self.assertEqual(repo, "erpnext")
+		self.assertEqual(repo, "kanierp")
 
 		owner, repo = parse_github_url("https://gitlab.com/gitlab-org/gitlab")
 		self.assertIsNone(owner)

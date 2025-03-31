@@ -94,7 +94,7 @@ removing any features
 sukh%40example.com&name=3DWN-SUP17470&doctype=3DIssue&_signature=3Dbba=
 bf063b4f3aad9ba1af915aa66df23>
 > Kanivin Technologies Private Limited
-> Sent via ERPNext <https://example.com/?source=3Dvia_email_footer>
+> Sent via KANIERP <https://example.com/?source=3Dvia_email_footer>
 
 
 --Apple-Mail=_932090B1-CF85-48AE-A8FA-95F2EEB1A521
@@ -181,7 +181,7 @@ Limited</div><div style=3D"margin: 15px auto;" class=3D""><div =
 style=3D"text-align: center;" class=3D"">
 	<a href=3D"https://example.com/?source=3Dvia_email_footer" =
 target=3D"_blank" style=3D"color: #8d99a6;" class=3D"">
-		Sent via ERPNext
+		Sent via KANIERP
 	</a>
 </div></div>
 </div>

@@ -63,7 +63,7 @@ const argv = yargs
 		description:
 			"Saves esbuild metafiles for built assets. Useful for analyzing bundle size. More info: https://esbuild.github.io/api/#metafile",
 	})
-	.example("node esbuild --apps frappe,erpnext", "Run build only for frappe and erpnext")
+	.example("node esbuild --apps frappe,kanierp", "Run build only for frappe and kanierp")
 	.example(
 		"node esbuild --files frappe/website.bundle.js,frappe/desk.bundle.js",
 		"Run build only for specified bundles"
@@ -204,7 +204,7 @@ function get_all_files_to_build(apps) {
 }
 
 function get_files_to_build(files) {
-	// files: ['frappe/website.bundle.js', 'erpnext/main.bundle.js']
+	// files: ['frappe/website.bundle.js', 'kanierp/main.bundle.js']
 	let include_patterns = [];
 	let ignore_patterns = [];
 

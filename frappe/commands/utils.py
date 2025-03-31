@@ -737,7 +737,7 @@ def transform_database(context, table, engine, row_format, failfast):
 @click.option("--case", help="Select particular TestCase")
 @click.option(
 	"--doctype-list-path",
-	help="Path to .txt file for list of doctypes. Example erpnext/tests/server/agriculture.txt",
+	help="Path to .txt file for list of doctypes. Example kanierp/tests/server/agriculture.txt",
 )
 @click.option("--test", multiple=True, help="Specific test")
 @click.option("--module", help="Run tests in a module")

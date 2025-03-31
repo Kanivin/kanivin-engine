@@ -764,7 +764,7 @@ msgstr ">="
 
 #. Description of the Onboarding Step 'Custom Document Types'
 #: frappe/custom/onboarding_step/custom_doctype/custom_doctype.json
-msgid "A DocType (Document Type) is used to insert forms in ERPNext. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in ERPNext as per your business needs."
+msgid "A DocType (Document Type) is used to insert forms in KANIERP. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in KANIERP as per your business needs."
 msgstr "DocType (Document Type) används för att infoga formulär i System. Formulär som Kund, Order och Fakturor är DocType i backend. Du kan också skapa nya DocTypes för att skapa nya formulär i System enligt dina affärsbehov."
 
 #: frappe/core/doctype/doctype/doctype.py:1010
@@ -8314,7 +8314,7 @@ msgstr "ESC"
 
 #. Description of the Onboarding Step 'Setup Naming Series'
 #: frappe/custom/onboarding_step/naming_series/naming_series.json
-msgid "Each document created in ERPNext can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.\n"
+msgid "Each document created in KANIERP can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.\n"
 msgstr "Varje dokument skapad i System kan ha unikt ID genererad för det, med definierad prefix . Även om varje dokument har prefix förkonfigurerad, kan man anpassa det ytterligare med hjälp av verktyg som Nummer Serie Verktyg och Dokument Namn Regel.\n"
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
@@ -9188,7 +9188,7 @@ msgstr "Ange Mapp Namn"
 #. Description of the 'Static Parameters' (Table) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
-msgid "Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)"
+msgid "Enter static url parameters here (Eg. sender=KANIERP, username=KANIERP, password=1234 etc.)"
 msgstr "Ange statiska url parametrar här (T.ex.. Avsändare = System, användarnamn = System, lösenord = 1234 osv.)"
 
 #. Description of the 'Message Parameter' (Data) field in DocType 'SMS
@@ -9267,8 +9267,8 @@ msgid "Error Message"
 msgstr "Fel Meddelande"
 
 #: frappe/public/js/frappe/form/print_utils.js:128
-msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "Fel vid anslutning till QZ Aktivitet Fält... <br><br> Du måste ha QZ Aktivitet Fält App installerad och igång för att kunna använda Direkt Utskrift funktion. <br><br> <a href=\"https://qz.io/download/\" target=\"_blank\">Klicka här för att ladda ner och installera QZ App</a> . <br> <a href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\" target=\"_blank\">Klicka här för att lära dig mer om Direkt Utskrift</a>."
+msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
+msgstr "Fel vid anslutning till QZ Aktivitet Fält... <br><br> Du måste ha QZ Aktivitet Fält App installerad och igång för att kunna använda Direkt Utskrift funktion. <br><br> <a href=\"https://qz.io/download/\" target=\"_blank\">Klicka här för att ladda ner och installera QZ App</a> . <br> <a href=\"https://kanierp.com/docs/user/manual/en/setting-up/print/raw-printing\" target=\"_blank\">Klicka här för att lära dig mer om Direkt Utskrift</a>."
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 msgid "Error connecting via IMAP/POP3: {e}"
@@ -9377,7 +9377,7 @@ msgstr "Händelser i Dagens Kalender"
 
 #. Description of the Onboarding Step 'Create Custom Fields'
 #: frappe/custom/onboarding_step/custom_field/custom_field.json
-msgid "Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n\n"
+msgid "Every form in KANIERP has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n\n"
 "Once custom fields are added, you can use them for reports and analytics charts as well.\n"
 msgstr "Varje formulär i System har standard uppsättning fält. Om du behöver fånga information, men det inte finns något standard fält tillgänglig för det, kan du infoga anpassad fält för det..\n\n"
 "När anpassade fält har lagts till kan du också använda dem för rapporter och analys diagram.\n"
@@ -10666,8 +10666,8 @@ msgstr "För mer information <a href=\"https://frappeframework.com/docs/user/en/
 #. Description of the 'Enable Automatic Linking in Documents' (Check) field in
 #. DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
-msgid "For more information, <a class=\"text-muted\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">click here</a>."
-msgstr "För mer information, <a class=\"text-muted\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">klicka här</a> ."
+msgid "For more information, <a class=\"text-muted\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">click here</a>."
+msgstr "För mer information, <a class=\"text-muted\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">klicka här</a> ."
 
 #: frappe/integrations/doctype/google_settings/google_settings.js:7
 msgid "For more information, {0}."
@@ -12549,7 +12549,7 @@ msgstr "I Dagar"
 
 #. Description of the Onboarding Step 'Setup Limited Access for a User'
 #: frappe/custom/onboarding_step/role_permissions/role_permissions.json
-msgid "In ERPNext, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions."
+msgid "In KANIERP, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions."
 msgstr "I System kan du lägga till dina anställda som användare och ge dem begränsad åtkomst. Verktyg som Rollbehörighet och Användarbehörighet definierar regler som ger användare begränsad åtkomst till tabeller och transaktioner."
 
 #. Label of a Check field in DocType 'DocField'
@@ -12618,7 +12618,7 @@ msgstr "I Standard Filter"
 
 #. Description of the Onboarding Step 'Generate Custom Reports'
 #: frappe/custom/onboarding_step/report_builder/report_builder.json
-msgid "In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in ERPNext by pulling values from the same multiple ERPNext tables.\n"
+msgid "In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in KANIERP by pulling values from the same multiple KANIERP tables.\n"
 msgstr "I varje modul hittar du flera enkel klick rapporter, allt från bokslut till försäljning och inköp analyser och lager spårning rapporter. Om erfordrad rapport inte är tillgänglig direkt, kan du skapa anpassade rapporter i System genom att hämta värden från tabeller.\n"
 
 #. Description of the 'Font Size' (Float) field in DocType 'Print Settings'
@@ -24540,8 +24540,8 @@ msgstr "Under valuta. För t.ex. 'Öre'"
 #. Description of the 'Subdomain' (Small Text) field in DocType 'Website
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
-msgid "Sub-domain provided by erpnext.com"
-msgstr "Underdomän tillhandahålls av erpnext.com"
+msgid "Sub-domain provided by kanierp.com"
+msgstr "Underdomän tillhandahålls av kanierp.com"
 
 #. Label of a Small Text field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -28933,7 +28933,7 @@ msgstr "Arbetsflöde är uppdaterad"
 
 #. Description of the Onboarding Step 'Setup Approval Workflows'
 #: frappe/custom/onboarding_step/workflows/workflows.json
-msgid "Workflows allow you to define custom rules for the approval process of a particular document in ERPNext. You can also set complex Workflow Rules and set approval conditions."
+msgid "Workflows allow you to define custom rules for the approval process of a particular document in KANIERP. You can also set complex Workflow Rules and set approval conditions."
 msgstr "Arbetsflöde låter dig definiera anpassade regler för godkännande process för dokument i System. Du kan också ange komplexa arbetsflöde regler och ange godkännande"
 
 #. Linked DocType in Module Def's connections

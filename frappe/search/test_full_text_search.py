@@ -19,7 +19,7 @@ class TestFullTextSearch(KanivinTestCase):
 		self.assertEqual(res[0], "os/linux")
 
 		res = self.index.search("Enterprise Resource Planning")
-		self.assertEqual(res[0], "sw/erpnext")
+		self.assertEqual(res[0], "sw/kanierp")
 
 	def test_search_limit(self):
 		res = self.index.search("CommonSearchTerm")
@@ -49,13 +49,13 @@ class TestFullTextSearch(KanivinTestCase):
 
 	def test_update_index(self):
 		# Update existing index
-		self.index.update_index({"name": "sw/erpnext", "content": """AwesomeERPNext"""})
+		self.index.update_index({"name": "sw/kanierp", "content": """AwesomeKANIERP"""})
 
 		res = self.index.search("CommonSearchTerm")
-		self.assertTrue("sw/erpnext" not in res)
+		self.assertTrue("sw/kanierp" not in res)
 
-		res = self.index.search("AwesomeERPNext")
-		self.assertEqual(res[0], "sw/erpnext")
+		res = self.index.search("AwesomeKANIERP")
+		self.assertEqual(res[0], "sw/kanierp")
 
 		# Update new doc
 		self.index.update_index({"name": "sw/frappebooks", "content": """DesktopAccounting"""})
@@ -114,10 +114,10 @@ def get_documents():
 
 	docs.append(
 		{
-			"name": "sw/erpnext",
-			"content": """ERPNext is a free and open-source integrated Enterprise Resource Planning software developed by
+			"name": "sw/kanierp",
+			"content": """KANIERP is a free and open-source integrated Enterprise Resource Planning software developed by
 			Kanivin Technologies Pvt. Ltd. and is built on MariaDB database system using a Python based server-side framework.
-			ERPNext is a generic ERP software used by manufacturers, distributors and services companies. CommonSearchTerm""",
+			KANIERP is a generic ERP software used by manufacturers, distributors and services companies. CommonSearchTerm""",
 		}
 	)
 

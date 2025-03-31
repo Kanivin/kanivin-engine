@@ -14,7 +14,7 @@ class LDAPGroupMapping(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
-		erpnext_role: DF.Link
+		kanierp_role: DF.Link
 		ldap_group: DF.Data
 		parent: DF.Data
 		parentfield: DF.Data

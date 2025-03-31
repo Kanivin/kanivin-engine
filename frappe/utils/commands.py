@@ -3,11 +3,11 @@ import functools
 
 @functools.lru_cache(maxsize=1024)
 def get_first_party_apps():
-	"""Get list of all apps under orgs: frappe. erpnext from GitHub"""
+	"""Get list of all apps under orgs: frappe. kanierp from GitHub"""
 	import requests
 
 	apps = []
-	for org in ["frappe", "erpnext"]:
+	for org in ["frappe", "kanierp"]:
 		req = requests.get(f"https://api.github.com/users/{org}/repos", {"type": "sources", "per_page": 200})
 		if req.ok:
 			apps.extend([x["name"] for x in req.json()])

@@ -90,7 +90,7 @@ class TestEmailAccount(KanivinTestCase):
 	def test_incoming_with_attach(self):
 		cleanup("test_sender@example.com")
 
-		existing_file = frappe.get_doc({"doctype": "File", "file_name": "erpnext-conf-14.png"})
+		existing_file = frappe.get_doc({"doctype": "File", "file_name": "kanierp-conf-14.png"})
 		frappe.delete_doc("File", existing_file.name)
 
 		messages = {
@@ -110,10 +110,10 @@ class TestEmailAccount(KanivinTestCase):
 
 		# check attachment
 		attachments = get_attachments(comm.doctype, comm.name)
-		self.assertTrue("erpnext-conf-14.png" in [f.file_name for f in attachments])
+		self.assertTrue("kanierp-conf-14.png" in [f.file_name for f in attachments])
 
 		# cleanup
-		existing_file = frappe.get_doc({"doctype": "File", "file_name": "erpnext-conf-14.png"})
+		existing_file = frappe.get_doc({"doctype": "File", "file_name": "kanierp-conf-14.png"})
 		frappe.delete_doc("File", existing_file.name)
 
 	def test_incoming_attached_email_from_outlook_plain_text_only(self):

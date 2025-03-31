@@ -186,8 +186,8 @@ w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 Content-Type: text/plain; charset=utf-8
 Content-Disposition: inline
 Content-Transfer-Encoding: 8bit
-From: test1_@erpnext.com
-Reply-To: test2_@erpnext.com
+From: test1_@kanierp.com
+Reply-To: test2_@kanierp.com
 """
 			+ text_content_bytes
 		)

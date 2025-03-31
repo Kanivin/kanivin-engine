@@ -454,7 +454,7 @@ Introduce your company to the website visitor.,對網站訪客介紹貴公司。
 "Encryption key is invalid, Please check site_config.json",加密密鑰無效，請檢查site_config.json,
 Receiver Parameter,收受方參數
 Remote Fieldname,遠程字段名稱
-Cannot change user details in demo. Please signup for a new account at https://erpnext.com,演示中無法更改用戶詳細信息。請在https://erpnext.com註冊一個新帳戶
+Cannot change user details in demo. Please signup for a new account at https://kanierp.com,演示中無法更改用戶詳細信息。請在https://kanierp.com註冊一個新帳戶
 Please duplicate this to make changes,請複製此做出改變
 Press Enter to save,按Enter鍵保存
 PDF generation failed because of broken image links,PDF生成，因為破碎的圖像鏈接失敗
@@ -1514,7 +1514,7 @@ Leave blank for new records,留空新紀錄
 List of themes for Website.,主題的網站名單。
 Logout,登出
 Permissions at higher levels are Field Level permissions. All Fields have a Permission Level set against them and the rules defined at that permissions apply to the field. This is useful in case you want to hide or make certain field read-only for certain Roles.,在更高級別的權限是現場級的權限。所有領域都對他們權限級別設置，並在該權限適用於該領域中定義的規則。要隱藏或使某些領域的只讀某些角色，這是在的情況下非常有用。
-"Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)",在這裡輸入靜態URL參數（如稱發件人= ERPNext，用戶名= ERPNext，密碼= 1234等）
+"Enter static url parameters here (Eg. sender=KANIERP, username=KANIERP, password=1234 etc.)",在這裡輸入靜態URL參數（如稱發件人= KANIERP，用戶名= KANIERP，密碼= 1234等）
 "If these instructions where not helpful, please add in your suggestions on GitHub Issues.",如果這些指示沒有幫助，請加在GitHub Issues提出你的建議。
 bookmark,書籤
 Folder name should not include '/' (slash),文件夾名稱不應包含“/”（斜杠）
@@ -1666,7 +1666,7 @@ forward,轉發
 New Folder,新建文件夾
 Uses the Email Address mentioned in this Account as the Sender for all emails sent using this Account. ,使用這個帳戶提到發件人使用此帳戶發送的所有電子郵件的電子郵件地址。
 Toggle Charts,切換圖表
-Sub-domain provided by erpnext.com,由erpnext.com提供的子網域
+Sub-domain provided by kanierp.com,由kanierp.com提供的子網域
 Setting up your system,設置您的系統
 Descendants Of,後裔
 dd-mm-yyyy,dd-mm-yyyy,

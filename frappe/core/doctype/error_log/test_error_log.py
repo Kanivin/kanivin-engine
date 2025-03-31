@@ -32,7 +32,7 @@ _RAW_EXC = """
    File "apps/frappe/frappe/model/document.py", line 933, in fn
      return method_object(*args, **kwargs)
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   File "apps/erpnext/erpnext/selling/doctype/sales_order/sales_order.py", line 58, in onload
+   File "apps/kanierp/kanierp/selling/doctype/sales_order/sales_order.py", line 58, in onload
      raise Exception("what")
  Exception: what
 """
@@ -41,7 +41,7 @@ _THROW_EXC = """
    File "apps/frappe/frappe/model/document.py", line 933, in fn
      return method_object(*args, **kwargs)
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   File "apps/erpnext/erpnext/selling/doctype/sales_order/sales_order.py", line 58, in onload
+   File "apps/kanierp/kanierp/selling/doctype/sales_order/sales_order.py", line 58, in onload
      frappe.throw("what")
    File "apps/frappe/frappe/__init__.py", line 550, in throw
      msgprint(
@@ -54,18 +54,18 @@ _THROW_EXC = """
 
 TEST_EXCEPTIONS = (
 	(
-		"erpnext (app)",
+		"kanierp (app)",
 		_RAW_EXC,
 	),
 	(
-		"erpnext (app)",
+		"kanierp (app)",
 		_THROW_EXC,
 	),
 )
 
 
 class TestExceptionSourceGuessing(KanivinTestCase):
-	@patch.object(frappe, "get_installed_apps", return_value=["frappe", "erpnext", "3pa"])
+	@patch.object(frappe, "get_installed_apps", return_value=["frappe", "kanierp", "3pa"])
 	def test_exc_source_guessing(self, _installed_apps):
 		for source, exc in TEST_EXCEPTIONS:
 			result = guess_exception_source(exc)

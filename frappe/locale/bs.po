@@ -767,8 +767,8 @@ msgstr ">="
 
 #. Description of the Onboarding Step 'Custom Document Types'
 #: frappe/custom/onboarding_step/custom_doctype/custom_doctype.json
-msgid "A DocType (Document Type) is used to insert forms in ERPNext. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in ERPNext as per your business needs."
-msgstr "DocType (Document Type) se koristi za umetanje obrazaca u ERPNext. Obrasci kao što su Kupac, Narudžbe i Fakture su tipovi dokumenata u pozadini. Također možete kreirati nove DocType za kreiranje novih obrazaca u ERPNext prema vašim poslovnim potrebama."
+msgid "A DocType (Document Type) is used to insert forms in KANIERP. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in KANIERP as per your business needs."
+msgstr "DocType (Document Type) se koristi za umetanje obrazaca u KANIERP. Obrasci kao što su Kupac, Narudžbe i Fakture su tipovi dokumenata u pozadini. Također možete kreirati nove DocType za kreiranje novih obrazaca u KANIERP prema vašim poslovnim potrebama."
 
 #: frappe/core/doctype/doctype/doctype.py:1010
 msgid "A DocType's name should start with a letter and can only consist of letters, numbers, spaces, underscores and hyphens"
@@ -8316,8 +8316,8 @@ msgstr "ESC"
 
 #. Description of the Onboarding Step 'Setup Naming Series'
 #: frappe/custom/onboarding_step/naming_series/naming_series.json
-msgid "Each document created in ERPNext can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.\n"
-msgstr "Svaki dokument kreiran u ERPNext-u može imati jedinstveni ID generisan za njega, koristeći prefiks definisan za njega. Iako svaki dokument ima neki unaprijed konfiguriran prefiks, možete ga dodatno prilagoditi pomoću alata kao što su Alat za imenovanje serije i Pravilo imenovanja dokumenata.\n"
+msgid "Each document created in KANIERP can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.\n"
+msgstr "Svaki dokument kreiran u KANIERP-u može imati jedinstveni ID generisan za njega, koristeći prefiks definisan za njega. Iako svaki dokument ima neki unaprijed konfiguriran prefiks, možete ga dodatno prilagoditi pomoću alata kao što su Alat za imenovanje serije i Pravilo imenovanja dokumenata.\n"
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
@@ -9190,8 +9190,8 @@ msgstr "Unesite naziv fascikle"
 #. Description of the 'Static Parameters' (Table) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
-msgid "Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)"
-msgstr "Ovdje unesite statičke parametre URL-a (npr. pošiljatelj=ERPNext, korisničko ime=ERPNext, lozinka=1234 itd.)"
+msgid "Enter static url parameters here (Eg. sender=KANIERP, username=KANIERP, password=1234 etc.)"
+msgstr "Ovdje unesite statičke parametre URL-a (npr. pošiljatelj=KANIERP, korisničko ime=KANIERP, lozinka=1234 itd.)"
 
 #. Description of the 'Message Parameter' (Data) field in DocType 'SMS
 #. Settings'
@@ -9269,8 +9269,8 @@ msgid "Error Message"
 msgstr "Poruka o grešci"
 
 #: frappe/public/js/frappe/form/print_utils.js:128
-msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "Greška pri povezivanju sa QZ Tray aplikacijom...<br><br> Morate imati instaliranu i pokrenutu aplikaciju QZ Tray da biste koristili funkciju Raw Print.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Kliknite ovdje da preuzmete i instalirate QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Kliknite ovdje da saznate više o sirovom štampanju</a>."
+msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
+msgstr "Greška pri povezivanju sa QZ Tray aplikacijom...<br><br> Morate imati instaliranu i pokrenutu aplikaciju QZ Tray da biste koristili funkciju Raw Print.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Kliknite ovdje da preuzmete i instalirate QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/print/raw-printing\">Kliknite ovdje da saznate više o sirovom štampanju</a>."
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 msgid "Error connecting via IMAP/POP3: {e}"
@@ -9379,9 +9379,9 @@ msgstr "Događaji u današnjem kalendaru"
 
 #. Description of the Onboarding Step 'Create Custom Fields'
 #: frappe/custom/onboarding_step/custom_field/custom_field.json
-msgid "Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n\n"
+msgid "Every form in KANIERP has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n\n"
 "Once custom fields are added, you can use them for reports and analytics charts as well.\n"
-msgstr "Svaki obrazac u ERPNextu ima standardni skup polja. Ako trebate da snimite neke informacije, ali ne postoji standardno polje dostupno za to, možete umetnuti prilagođeno polje za to.\n\n"
+msgstr "Svaki obrazac u KANIERPu ima standardni skup polja. Ako trebate da snimite neke informacije, ali ne postoji standardno polje dostupno za to, možete umetnuti prilagođeno polje za to.\n\n"
 "Kada se dodaju prilagođena polja, možete ih koristiti i za izvještaje i analitičke grafikone.\n"
 
 #. Label of a Check field in DocType 'DocShare'
@@ -10668,8 +10668,8 @@ msgstr "Za pomoć pogledajte <a href=\"https://frappeframework.com/docs/user/en/
 #. Description of the 'Enable Automatic Linking in Documents' (Check) field in
 #. DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
-msgid "For more information, <a class=\"text-muted\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">click here</a>."
-msgstr "Za više informacija, <a class=\"text-muted\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">kliknite ovdje</a>."
+msgid "For more information, <a class=\"text-muted\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">click here</a>."
+msgstr "Za više informacija, <a class=\"text-muted\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">kliknite ovdje</a>."
 
 #: frappe/integrations/doctype/google_settings/google_settings.js:7
 msgid "For more information, {0}."
@@ -12551,8 +12551,8 @@ msgstr "U danima"
 
 #. Description of the Onboarding Step 'Setup Limited Access for a User'
 #: frappe/custom/onboarding_step/role_permissions/role_permissions.json
-msgid "In ERPNext, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions."
-msgstr "U ERPNext-u možete dodati svoje zaposlenike kao korisnike i dati im ograničen pristup. Alati kao što su Dozvola za ulogu i Dozvola korisnika omogućavaju vam da definišete pravila koja daju ograničen pristup korisniku masterima i transakcijama."
+msgid "In KANIERP, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions."
+msgstr "U KANIERP-u možete dodati svoje zaposlenike kao korisnike i dati im ograničen pristup. Alati kao što su Dozvola za ulogu i Dozvola korisnika omogućavaju vam da definišete pravila koja daju ograničen pristup korisniku masterima i transakcijama."
 
 #. Label of a Check field in DocType 'DocField'
 #. Label of a Check field in DocType 'Customize Form Field'
@@ -12620,8 +12620,8 @@ msgstr "U standardnom filteru"
 
 #. Description of the Onboarding Step 'Generate Custom Reports'
 #: frappe/custom/onboarding_step/report_builder/report_builder.json
-msgid "In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in ERPNext by pulling values from the same multiple ERPNext tables.\n"
-msgstr "U svakom modulu ćete pronaći mnoštvo izvještaja jednim klikom, u rasponu od finansijskih izvještaja do analitike prodaje i kupovine i izvještaja o praćenju zaliha. Ako traženi novi izvještaj nije dostupan odmah, možete kreirati prilagođene izvještaje u ERPNext-u tako što ćete povući vrijednosti iz istih višestrukih ERPNext tabela.\n"
+msgid "In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in KANIERP by pulling values from the same multiple KANIERP tables.\n"
+msgstr "U svakom modulu ćete pronaći mnoštvo izvještaja jednim klikom, u rasponu od finansijskih izvještaja do analitike prodaje i kupovine i izvještaja o praćenju zaliha. Ako traženi novi izvještaj nije dostupan odmah, možete kreirati prilagođene izvještaje u KANIERP-u tako što ćete povući vrijednosti iz istih višestrukih KANIERP tabela.\n"
 
 #. Description of the 'Font Size' (Float) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -24543,8 +24543,8 @@ msgstr "Podvaluta. Za npr. \"Cent\""
 #. Description of the 'Subdomain' (Small Text) field in DocType 'Website
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
-msgid "Sub-domain provided by erpnext.com"
-msgstr "Poddomenu obezbjeđuje erpnext.com"
+msgid "Sub-domain provided by kanierp.com"
+msgstr "Poddomenu obezbjeđuje kanierp.com"
 
 #. Label of a Small Text field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -28943,8 +28943,8 @@ msgstr "Radni Tok je uspješno ažuriran"
 
 #. Description of the Onboarding Step 'Setup Approval Workflows'
 #: frappe/custom/onboarding_step/workflows/workflows.json
-msgid "Workflows allow you to define custom rules for the approval process of a particular document in ERPNext. You can also set complex Workflow Rules and set approval conditions."
-msgstr "Radni tokovi vam omogućavaju da definišete prilagođena pravila za proces odobravanja određenog dokumenta u ERPNextu. Takođe možete postaviti složena pravila radnog toka i postaviti uslove odobrenja."
+msgid "Workflows allow you to define custom rules for the approval process of a particular document in KANIERP. You can also set complex Workflow Rules and set approval conditions."
+msgstr "Radni tokovi vam omogućavaju da definišete prilagođena pravila za proces odobravanja određenog dokumenta u KANIERPu. Takođe možete postaviti složena pravila radnog toka i postaviti uslove odobrenja."
 
 #. Linked DocType in Module Def's connections
 #. Label of a Section Break field in DocType 'User'

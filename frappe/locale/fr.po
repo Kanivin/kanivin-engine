@@ -712,7 +712,7 @@ msgstr ""
 
 #. Description of the Onboarding Step 'Custom Document Types'
 #: frappe/custom/onboarding_step/custom_doctype/custom_doctype.json
-msgid "A DocType (Document Type) is used to insert forms in ERPNext. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in ERPNext as per your business needs."
+msgid "A DocType (Document Type) is used to insert forms in KANIERP. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in KANIERP as per your business needs."
 msgstr ""
 
 #: frappe/core/doctype/doctype/doctype.py:1010
@@ -8257,7 +8257,7 @@ msgstr ""
 
 #. Description of the Onboarding Step 'Setup Naming Series'
 #: frappe/custom/onboarding_step/naming_series/naming_series.json
-msgid "Each document created in ERPNext can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.\n"
+msgid "Each document created in KANIERP can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.\n"
 msgstr ""
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
@@ -9130,8 +9130,8 @@ msgstr "Entrez le nom du dossier"
 #. Description of the 'Static Parameters' (Table) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
-msgid "Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)"
-msgstr "Entrez les paramètres d'url statiques (par exemple ici sender = ERPNext, username = ERPNext, mot de passe = 1234 etc)"
+msgid "Enter static url parameters here (Eg. sender=KANIERP, username=KANIERP, password=1234 etc.)"
+msgstr "Entrez les paramètres d'url statiques (par exemple ici sender = KANIERP, username = KANIERP, mot de passe = 1234 etc)"
 
 #. Description of the 'Message Parameter' (Data) field in DocType 'SMS
 #. Settings'
@@ -9209,8 +9209,8 @@ msgid "Error Message"
 msgstr "Message d&#39;erreur"
 
 #: frappe/public/js/frappe/form/print_utils.js:128
-msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "Erreur de connexion à l&#39;application QZ Tray ... <br><br> Vous devez avoir installé et exécuté l&#39;application QZ Tray pour utiliser la fonction d&#39;impression brute. <br><br> <a href=\"https://qz.io/download/\" target=\"_blank\">Cliquez ici pour télécharger et installer QZ Tray</a> . <br> <a href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\" target=\"_blank\">Cliquez ici pour en savoir plus sur l&#39;impression brute</a> ."
+msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
+msgstr "Erreur de connexion à l&#39;application QZ Tray ... <br><br> Vous devez avoir installé et exécuté l&#39;application QZ Tray pour utiliser la fonction d&#39;impression brute. <br><br> <a href=\"https://qz.io/download/\" target=\"_blank\">Cliquez ici pour télécharger et installer QZ Tray</a> . <br> <a href=\"https://kanierp.com/docs/user/manual/en/setting-up/print/raw-printing\" target=\"_blank\">Cliquez ici pour en savoir plus sur l&#39;impression brute</a> ."
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 msgid "Error connecting via IMAP/POP3: {e}"
@@ -9319,7 +9319,7 @@ msgstr "Événements dans le Calendrier d'Aujourd'hui"
 
 #. Description of the Onboarding Step 'Create Custom Fields'
 #: frappe/custom/onboarding_step/custom_field/custom_field.json
-msgid "Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n\n"
+msgid "Every form in KANIERP has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n\n"
 "Once custom fields are added, you can use them for reports and analytics charts as well.\n"
 msgstr ""
 
@@ -10607,8 +10607,8 @@ msgstr "Pour obtenir de l&#39;aide, voir <a href=\"https://frappeframework.com/d
 #. Description of the 'Enable Automatic Linking in Documents' (Check) field in
 #. DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
-msgid "For more information, <a class=\"text-muted\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">click here</a>."
-msgstr "Pour plus d&#39;informations, <a class=\"text-muted\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">cliquez ici</a> ."
+msgid "For more information, <a class=\"text-muted\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">click here</a>."
+msgstr "Pour plus d&#39;informations, <a class=\"text-muted\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">cliquez ici</a> ."
 
 #: frappe/integrations/doctype/google_settings/google_settings.js:7
 msgid "For more information, {0}."
@@ -12490,7 +12490,7 @@ msgstr "En jours"
 
 #. Description of the Onboarding Step 'Setup Limited Access for a User'
 #: frappe/custom/onboarding_step/role_permissions/role_permissions.json
-msgid "In ERPNext, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions."
+msgid "In KANIERP, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions."
 msgstr ""
 
 #. Label of a Check field in DocType 'DocField'
@@ -12559,7 +12559,7 @@ msgstr "Dans Filtre Standard"
 
 #. Description of the Onboarding Step 'Generate Custom Reports'
 #: frappe/custom/onboarding_step/report_builder/report_builder.json
-msgid "In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in ERPNext by pulling values from the same multiple ERPNext tables.\n"
+msgid "In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in KANIERP by pulling values from the same multiple KANIERP tables.\n"
 msgstr ""
 
 #. Description of the 'Font Size' (Float) field in DocType 'Print Settings'
@@ -24453,8 +24453,8 @@ msgstr "Sous-monnaie. E.g. : \"Cent\""
 #. Description of the 'Subdomain' (Small Text) field in DocType 'Website
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
-msgid "Sub-domain provided by erpnext.com"
-msgstr "Sous-domaine fourni par erpnext.com"
+msgid "Sub-domain provided by kanierp.com"
+msgstr "Sous-domaine fourni par kanierp.com"
 
 #. Label of a Small Text field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -28834,7 +28834,7 @@ msgstr ""
 
 #. Description of the Onboarding Step 'Setup Approval Workflows'
 #: frappe/custom/onboarding_step/workflows/workflows.json
-msgid "Workflows allow you to define custom rules for the approval process of a particular document in ERPNext. You can also set complex Workflow Rules and set approval conditions."
+msgid "Workflows allow you to define custom rules for the approval process of a particular document in KANIERP. You can also set complex Workflow Rules and set approval conditions."
 msgstr ""
 
 #. Linked DocType in Module Def's connections

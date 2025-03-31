@@ -3,7 +3,7 @@ frappe.provide("frappe.help.help_links");
 frappe.help.help_links["data-import-tool"] = [
 	{
 		label: "Importing and Exporting Data",
-		url: "https://docs.erpnext.com/docs/user/manual/en/data",
+		url: "https://docs.kanierp.com/docs/user/manual/en/data",
 	},
 ];
 
@@ -14,24 +14,24 @@ frappe.help.help_links["modules/Setup"] = [
 	},
 	{
 		label: "System Settings",
-		url: "https://docs.erpnext.com/docs/user/manual/en/system-settings",
+		url: "https://docs.kanierp.com/docs/user/manual/en/system-settings",
 	},
 	{
 		label: "Data Management",
-		url: "https://docs.erpnext.com/docs/user/manual/en/data",
+		url: "https://docs.kanierp.com/docs/user/manual/en/data",
 	},
-	{ label: "Email", url: "https://docs.erpnext.com/docs/user/manual/en/email" },
-	{ label: "Printing and Branding", url: "https://docs.erpnext.com/docs/user/manual/en/print" },
+	{ label: "Email", url: "https://docs.kanierp.com/docs/user/manual/en/email" },
+	{ label: "Printing and Branding", url: "https://docs.kanierp.com/docs/user/manual/en/print" },
 ];
 
 frappe.help.help_links["List/User"] = [
 	{
 		label: "Adding Users",
-		url: "https://docs.erpnext.com/docs/user/manual/en/adding-users",
+		url: "https://docs.kanierp.com/docs/user/manual/en/adding-users",
 	},
 	{
 		label: "Rename User",
-		url: "https://docs.erpnext.com/docs/user/manual/en/renaming-documents",
+		url: "https://docs.kanierp.com/docs/user/manual/en/renaming-documents",
 	},
 ];
 
@@ -52,34 +52,34 @@ frappe.help.help_links["user-permissions"] = [
 frappe.help.help_links["Form/System Settings"] = [
 	{
 		label: "System Settings",
-		url: "https://docs.erpnext.com/docs/user/manual/en/system-settings",
+		url: "https://docs.kanierp.com/docs/user/manual/en/system-settings",
 	},
 ];
 
 frappe.help.help_links["List/Email Account"] = [
 	{
 		label: "Email Account",
-		url: "https://docs.erpnext.com/docs/user/manual/en/email-account",
+		url: "https://docs.kanierp.com/docs/user/manual/en/email-account",
 	},
 ];
 
 frappe.help.help_links["List/Notification"] = [
 	{
 		label: "Notification",
-		url: "https://docs.erpnext.com/docs/user/manual/en/notifications",
+		url: "https://docs.kanierp.com/docs/user/manual/en/notifications",
 	},
 ];
 
 frappe.help.help_links["Form/Print Settings"] = [
 	{
 		label: "Print Settings",
-		url: "https://docs.erpnext.com/docs/user/manual/en/print-settings",
+		url: "https://docs.kanierp.com/docs/user/manual/en/print-settings",
 	},
 ];
 
 frappe.help.help_links["print-format-builder"] = [
 	{
 		label: "Print Format Builder",
-		url: "https://docs.erpnext.com/docs/user/manual/en/print-format-builder",
+		url: "https://docs.kanierp.com/docs/user/manual/en/print-format-builder",
 	},
 ];

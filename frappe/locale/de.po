@@ -767,8 +767,8 @@ msgstr ">="
 
 #. Description of the Onboarding Step 'Custom Document Types'
 #: frappe/custom/onboarding_step/custom_doctype/custom_doctype.json
-msgid "A DocType (Document Type) is used to insert forms in ERPNext. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in ERPNext as per your business needs."
-msgstr "Ein DocType (Dokumententyp) wird verwendet, um Formulare in ERPNext einzufügen. Formulare wie Kunden, Bestellungen und Rechnungen sind DocTypes im Backend. Sie können auch neue DocTypes erstellen, um neue Formulare in ERPNext gemäß Ihren geschäftlichen Anforderungen zu erstellen."
+msgid "A DocType (Document Type) is used to insert forms in KANIERP. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in KANIERP as per your business needs."
+msgstr "Ein DocType (Dokumententyp) wird verwendet, um Formulare in KANIERP einzufügen. Formulare wie Kunden, Bestellungen und Rechnungen sind DocTypes im Backend. Sie können auch neue DocTypes erstellen, um neue Formulare in KANIERP gemäß Ihren geschäftlichen Anforderungen zu erstellen."
 
 #: frappe/core/doctype/doctype/doctype.py:1010
 msgid "A DocType's name should start with a letter and can only consist of letters, numbers, spaces, underscores and hyphens"
@@ -8317,8 +8317,8 @@ msgstr "ESC"
 
 #. Description of the Onboarding Step 'Setup Naming Series'
 #: frappe/custom/onboarding_step/naming_series/naming_series.json
-msgid "Each document created in ERPNext can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.\n"
-msgstr "Für jedes in ERPNext erstellte Dokument kann eine eindeutige ID generiert werden, die ein dafür definiertes Präfix verwendet. Obwohl für jedes Dokument ein Präfix vorkonfiguriert ist, können Sie es mit Tools wie dem Nummernkreis-Tool und der Dokumentbenennungsregel weiter anpassen.\n"
+msgid "Each document created in KANIERP can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.\n"
+msgstr "Für jedes in KANIERP erstellte Dokument kann eine eindeutige ID generiert werden, die ein dafür definiertes Präfix verwendet. Obwohl für jedes Dokument ein Präfix vorkonfiguriert ist, können Sie es mit Tools wie dem Nummernkreis-Tool und der Dokumentbenennungsregel weiter anpassen.\n"
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
@@ -9191,8 +9191,8 @@ msgstr "Ordnernamen eingeben"
 #. Description of the 'Static Parameters' (Table) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
-msgid "Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)"
-msgstr "Statische URL-Parameter hier eingeben (z. B. Absender=ERPNext, Benutzername=ERPNext, Passwort=1234 usw.)"
+msgid "Enter static url parameters here (Eg. sender=KANIERP, username=KANIERP, password=1234 etc.)"
+msgstr "Statische URL-Parameter hier eingeben (z. B. Absender=KANIERP, Benutzername=KANIERP, Passwort=1234 usw.)"
 
 #. Description of the 'Message Parameter' (Data) field in DocType 'SMS
 #. Settings'
@@ -9270,8 +9270,8 @@ msgid "Error Message"
 msgstr "Fehlermeldung"
 
 #: frappe/public/js/frappe/form/print_utils.js:128
-msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
-msgstr "Fehler beim Verbinden mit der QZ-Tray-Anwendung ... <br><br> Sie müssen die QZ Tray-Anwendung installiert haben und ausführen, um die Raw Print-Funktion verwenden zu können. <br><br> <a href=\"https://qz.io/download/\" target=\"_blank\">Klicken Sie hier, um QZ Tray herunterzuladen und zu installieren</a> . <br> <a href=\"https://erpnext.com/docs/user/manual/en/setting-up/print/raw-printing\" target=\"_blank\">Klicken Sie hier, um mehr über den Rohdruck zu erfahren</a> ."
+msgid "Error connecting to QZ Tray Application...<br><br> You need to have QZ Tray application installed and running, to use the Raw Print feature.<br><br><a target=\"_blank\" href=\"https://qz.io/download/\">Click here to Download and install QZ Tray</a>.<br> <a target=\"_blank\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/print/raw-printing\">Click here to learn more about Raw Printing</a>."
+msgstr "Fehler beim Verbinden mit der QZ-Tray-Anwendung ... <br><br> Sie müssen die QZ Tray-Anwendung installiert haben und ausführen, um die Raw Print-Funktion verwenden zu können. <br><br> <a href=\"https://qz.io/download/\" target=\"_blank\">Klicken Sie hier, um QZ Tray herunterzuladen und zu installieren</a> . <br> <a href=\"https://kanierp.com/docs/user/manual/en/setting-up/print/raw-printing\" target=\"_blank\">Klicken Sie hier, um mehr über den Rohdruck zu erfahren</a> ."
 
 #: frappe/email/doctype/email_domain/email_domain.py:32
 msgid "Error connecting via IMAP/POP3: {e}"
@@ -9380,9 +9380,9 @@ msgstr "Ereignisse im heutigen Kalender"
 
 #. Description of the Onboarding Step 'Create Custom Fields'
 #: frappe/custom/onboarding_step/custom_field/custom_field.json
-msgid "Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n\n"
+msgid "Every form in KANIERP has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n\n"
 "Once custom fields are added, you can use them for reports and analytics charts as well.\n"
-msgstr "Jedes Formular in ERPNext verfügt über eine Reihe von Standardfeldern. Wenn Sie eine Information erfassen müssen, für die kein Standardfeld zur Verfügung steht, können Sie dafür ein benutzerdefiniertes Feld einfügen.\n\n"
+msgstr "Jedes Formular in KANIERP verfügt über eine Reihe von Standardfeldern. Wenn Sie eine Information erfassen müssen, für die kein Standardfeld zur Verfügung steht, können Sie dafür ein benutzerdefiniertes Feld einfügen.\n\n"
 "Sobald benutzerdefinierte Felder hinzugefügt sind, können Sie diese auch für Berichte und Diagramme verwenden.\n"
 
 #. Label of a Check field in DocType 'DocShare'
@@ -10670,8 +10670,8 @@ msgstr "Hilfe finden Sie unter <a href=\"https://frappeframework.com/docs/user/e
 #. Description of the 'Enable Automatic Linking in Documents' (Check) field in
 #. DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
-msgid "For more information, <a class=\"text-muted\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">click here</a>."
-msgstr "Weitere Informationen finden <a class=\"text-muted\" href=\"https://erpnext.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">Sie hier</a> ."
+msgid "For more information, <a class=\"text-muted\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">click here</a>."
+msgstr "Weitere Informationen finden <a class=\"text-muted\" href=\"https://kanierp.com/docs/user/manual/en/setting-up/email/linking-emails-to-document\">Sie hier</a> ."
 
 #: frappe/integrations/doctype/google_settings/google_settings.js:7
 msgid "For more information, {0}."
@@ -12553,8 +12553,8 @@ msgstr "In Tagen"
 
 #. Description of the Onboarding Step 'Setup Limited Access for a User'
 #: frappe/custom/onboarding_step/role_permissions/role_permissions.json
-msgid "In ERPNext, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions."
-msgstr "In ERPNext können Sie Ihre Mitarbeiter als Benutzer hinzufügen und ihnen eingeschränkten Zugriff gewähren. Mit Werkzeugen wie Rollenberechtigung und Benutzerberechtigung können Sie Regeln definieren, die dem Benutzer einen eingeschränkten Zugang zu Stammdaten und Transaktionen ermöglichen."
+msgid "In KANIERP, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions."
+msgstr "In KANIERP können Sie Ihre Mitarbeiter als Benutzer hinzufügen und ihnen eingeschränkten Zugriff gewähren. Mit Werkzeugen wie Rollenberechtigung und Benutzerberechtigung können Sie Regeln definieren, die dem Benutzer einen eingeschränkten Zugang zu Stammdaten und Transaktionen ermöglichen."
 
 #. Label of a Check field in DocType 'DocField'
 #. Label of a Check field in DocType 'Customize Form Field'
@@ -12622,8 +12622,8 @@ msgstr "Im Standard-Filter"
 
 #. Description of the Onboarding Step 'Generate Custom Reports'
 #: frappe/custom/onboarding_step/report_builder/report_builder.json
-msgid "In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in ERPNext by pulling values from the same multiple ERPNext tables.\n"
-msgstr "In jedem Modul finden Sie eine Vielzahl von Berichten, die Sie per Mausklick erstellen können – von Finanzberichten über Verkaufs- und Einkaufsanalysen bis hin zu Berichten zur Bestandsverfolgung. Wenn ein benötigter Bericht noch nicht angeboten wird, können Sie in ERPNext benutzerdefinierte Berichte erstellen, in denen Sie Werte aus denselben vielzähligen ERPNext-Tabellen abrufen.\n"
+msgid "In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in KANIERP by pulling values from the same multiple KANIERP tables.\n"
+msgstr "In jedem Modul finden Sie eine Vielzahl von Berichten, die Sie per Mausklick erstellen können – von Finanzberichten über Verkaufs- und Einkaufsanalysen bis hin zu Berichten zur Bestandsverfolgung. Wenn ein benötigter Bericht noch nicht angeboten wird, können Sie in KANIERP benutzerdefinierte Berichte erstellen, in denen Sie Werte aus denselben vielzähligen KANIERP-Tabellen abrufen.\n"
 
 #. Description of the 'Font Size' (Float) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -24545,8 +24545,8 @@ msgstr "Unterwährung, z. B. \"Cent\""
 #. Description of the 'Subdomain' (Small Text) field in DocType 'Website
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
-msgid "Sub-domain provided by erpnext.com"
-msgstr "Unterdomäne, bereitgestellt von erpnext.com"
+msgid "Sub-domain provided by kanierp.com"
+msgstr "Unterdomäne, bereitgestellt von kanierp.com"
 
 #. Label of a Small Text field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -28945,8 +28945,8 @@ msgstr "Workflow erfolgreich aktualisiert"
 
 #. Description of the Onboarding Step 'Setup Approval Workflows'
 #: frappe/custom/onboarding_step/workflows/workflows.json
-msgid "Workflows allow you to define custom rules for the approval process of a particular document in ERPNext. You can also set complex Workflow Rules and set approval conditions."
-msgstr "Mit Workflows können Sie benutzerdefinierte Regeln für den Genehmigungsprozess eines bestimmten Dokuments in ERPNext festlegen. Sie können auch komplexe Workflow-Regeln aufstellen und Genehmigungsbedingungen festlegen."
+msgid "Workflows allow you to define custom rules for the approval process of a particular document in KANIERP. You can also set complex Workflow Rules and set approval conditions."
+msgstr "Mit Workflows können Sie benutzerdefinierte Regeln für den Genehmigungsprozess eines bestimmten Dokuments in KANIERP festlegen. Sie können auch komplexe Workflow-Regeln aufstellen und Genehmigungsbedingungen festlegen."
 
 #. Linked DocType in Module Def's connections
 #. Label of a Section Break field in DocType 'User'

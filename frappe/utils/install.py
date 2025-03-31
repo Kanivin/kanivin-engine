@@ -181,7 +181,7 @@ def complete_setup_wizard():
 	setup_complete(
 		{
 			"language": "English",
-			"email": "test@erpnext.com",
+			"email": "test@kanierp.com",
 			"full_name": "Test User",
 			"password": "test",
 			"country": "United States",

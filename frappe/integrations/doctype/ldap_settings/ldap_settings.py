@@ -192,8 +192,8 @@ class LDAPSettings(Document):
 			needed_roles = set()
 		lower_groups = [g.lower() for g in additional_groups or []]
 
-		all_mapped_roles = {r.erpnext_role for r in self.ldap_groups}
-		matched_roles = {r.erpnext_role for r in self.ldap_groups if r.ldap_group.lower() in lower_groups}
+		all_mapped_roles = {r.kanierp_role for r in self.ldap_groups}
+		matched_roles = {r.kanierp_role for r in self.ldap_groups if r.ldap_group.lower() in lower_groups}
 		unmatched_roles = all_mapped_roles.difference(matched_roles)
 		needed_roles.update(matched_roles)
 		roles_to_remove = current_roles.intersection(unmatched_roles)

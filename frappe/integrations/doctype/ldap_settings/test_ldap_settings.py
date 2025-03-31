@@ -404,9 +404,9 @@ class LDAP_TestCase:
 			}
 
 		role_to_group_map = {
-			self.doc["ldap_groups"][0]["erpnext_role"]: self.doc["ldap_groups"][0]["ldap_group"],
-			self.doc["ldap_groups"][1]["erpnext_role"]: self.doc["ldap_groups"][1]["ldap_group"],
-			self.doc["ldap_groups"][2]["erpnext_role"]: self.doc["ldap_groups"][2]["ldap_group"],
+			self.doc["ldap_groups"][0]["kanierp_role"]: self.doc["ldap_groups"][0]["ldap_group"],
+			self.doc["ldap_groups"][1]["kanierp_role"]: self.doc["ldap_groups"][1]["ldap_group"],
+			self.doc["ldap_groups"][2]["kanierp_role"]: self.doc["ldap_groups"][2]["ldap_group"],
 			"Newsletter Manager": "default_role",
 			"All": "frappe_default_all",
 			"Guest": "frappe_default_guest",
@@ -611,10 +611,10 @@ class Test_OpenLDAP(LDAP_TestCase, TestCase):
 		{
 			"doctype": "LDAP Group Mapping",
 			"ldap_group": "Administrators",
-			"erpnext_role": "System Manager",
+			"kanierp_role": "System Manager",
 		},
-		{"doctype": "LDAP Group Mapping", "ldap_group": "Users", "erpnext_role": "Blogger"},
-		{"doctype": "LDAP Group Mapping", "ldap_group": "Group3", "erpnext_role": "Accounts User"},
+		{"doctype": "LDAP Group Mapping", "ldap_group": "Users", "kanierp_role": "Blogger"},
+		{"doctype": "LDAP Group Mapping", "ldap_group": "Group3", "kanierp_role": "Accounts User"},
 	]
 	LDAP_USERNAME_FIELD = "uid"
 	LDAP_SCHEMA = OFFLINE_SLAPD_2_4
@@ -635,13 +635,13 @@ class Test_ActiveDirectory(LDAP_TestCase, TestCase):
 		{
 			"doctype": "LDAP Group Mapping",
 			"ldap_group": "Domain Administrators",
-			"erpnext_role": "System Manager",
+			"kanierp_role": "System Manager",
 		},
-		{"doctype": "LDAP Group Mapping", "ldap_group": "Domain Users", "erpnext_role": "Blogger"},
+		{"doctype": "LDAP Group Mapping", "ldap_group": "Domain Users", "kanierp_role": "Blogger"},
 		{
 			"doctype": "LDAP Group Mapping",
 			"ldap_group": "Enterprise Administrators",
-			"erpnext_role": "Accounts User",
+			"kanierp_role": "Accounts User",
 		},
 	]
 	LDAP_USERNAME_FIELD = "samaccountname"

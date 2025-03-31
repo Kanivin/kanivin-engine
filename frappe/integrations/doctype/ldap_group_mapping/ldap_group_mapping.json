@@ -6,7 +6,7 @@
  "engine": "InnoDB",
  "field_order": [
   "ldap_group",
-  "erpnext_role"
+  "kanierp_role"
  ],
  "fields": [
   {
@@ -17,7 +17,7 @@
    "reqd": 1
   },
   {
-   "fieldname": "erpnext_role",
+   "fieldname": "kanierp_role",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "User Role",

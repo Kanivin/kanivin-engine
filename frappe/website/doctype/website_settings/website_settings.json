@@ -241,7 +241,7 @@
    "label": "FavIcon"
   },
   {
-   "description": "Sub-domain provided by erpnext.com",
+   "description": "Sub-domain provided by kanierp.com",
    "fieldname": "subdomain",
    "fieldtype": "Small Text",
    "label": "Subdomain",

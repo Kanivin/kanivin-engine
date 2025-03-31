@@ -14,7 +14,7 @@ bench generate-pot-file --app frappe
 cd ./apps/frappe || exit
 
 echo "Configuring git user..."
-git config user.email "developers@erpnext.com"
+git config user.email "developers@kanierp.com"
 git config user.name "frappe-pr-bot"
 
 echo "Setting the correct git remote..."

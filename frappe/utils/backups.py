@@ -469,7 +469,7 @@ class BackupGenerator:
 
 	def send_email(self):
 		"""
-		Sends the link to backup file located at erpnext/backups
+		Sends the link to backup file located at kanierp/backups
 		"""
 		from frappe.email import get_system_managers
 

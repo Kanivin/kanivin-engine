@@ -80,7 +80,7 @@ This format is used if country specific format is not found,Este formato se util
 Email,Correo electrónico,
 Help on Search,Ayuda en la búsqueda,
 Left,Izquierda,
-"Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)","Introduzca los parámetros de URL estáticas aquí (Ej. sender = ERPNext , nombre de usuario = ERPNext , contraseña = 1234 etc )"
+"Enter static url parameters here (Eg. sender=KANIERP, username=KANIERP, password=1234 etc.)","Introduzca los parámetros de URL estáticas aquí (Ej. sender = KANIERP , nombre de usuario = KANIERP , contraseña = 1234 etc )"
 Sorry! Sharing with Website User is prohibited.,¡Lo siento! Compartir con los del Sitio Web está prohibido.
 Script,Guión,
 Refresh Form,Formulario de actualización,
