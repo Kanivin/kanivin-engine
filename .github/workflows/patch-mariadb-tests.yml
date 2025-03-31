@@ -116,7 +116,7 @@ jobs:
 
           source env/bin/activate
           cd apps/frappe/
-          git remote set-url upstream https://github.com/frappe/frappe.git
+          git remote set-url upstream https://https://github.com/Kanivin/kanivin-engine.git
 
           function update_to_version() {
             version=$1

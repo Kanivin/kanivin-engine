@@ -1,4 +1,4 @@
-# Copyright (c) 2020, Kanivin Technologies and contributors
+# Copyright (c) 2020, Kanivin and contributors
 # License: MIT. See LICENSE
 
 from urllib.parse import urlparse

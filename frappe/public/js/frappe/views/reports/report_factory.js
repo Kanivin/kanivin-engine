@@ -1,4 +1,4 @@
-// Copyright (c) 2015, Kanivin Technologies Pvt. Ltd. and Contributors
+// Copyright (c) 2015, Kanivin Pvt. Ltd. and Contributors
 // MIT License. See license.txt
 
 frappe.views.ReportFactory = class ReportFactory extends frappe.views.Factory {

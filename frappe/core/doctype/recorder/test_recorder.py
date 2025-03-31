@@ -1,4 +1,4 @@
-# Copyright (c) 2023, Kanivin Technologies and Contributors
+# Copyright (c) 2023, Kanivin and Contributors
 # See license.txt
 
 import re

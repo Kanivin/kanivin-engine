@@ -1,4 +1,4 @@
-# Copyright (c) 2022, Kanivin Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2022, Kanivin Pvt. Ltd. and Contributors
 # License: MIT. See LICENSE
 import frappe
 from frappe.config import get_modules_from_all_apps_for_user

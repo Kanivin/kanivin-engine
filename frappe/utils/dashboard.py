@@ -1,4 +1,4 @@
-# Copyright (c) 2019, Kanivin Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2019, Kanivin Pvt. Ltd. and Contributors
 # License: MIT. See LICENSE
 import os
 from functools import wraps
@@ -53,7 +53,7 @@ def generate_and_cache_results(args, function, cache_key, chart):
 			#
 			# Note: Do not try to find the right way of doing this because
 			# it results in an inelegant & inefficient solution
-			# ref: https://github.com/frappe/frappe/pull/9403
+			# ref: https://https://github.com/Kanivin/kanivin-engine/pull/9403
 			frappe.throw(
 				_("Please check the filter values set for Dashboard Chart: {}").format(
 					get_link_to_form(chart.doctype, chart.name)

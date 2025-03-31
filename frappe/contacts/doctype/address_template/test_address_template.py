@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Kanivin Technologies and Contributors
+# Copyright (c) 2015, Kanivin and Contributors
 # License: MIT. See LICENSE
 import frappe
 from frappe.contacts.doctype.address_template.address_template import get_default_address_template

@@ -1,4 +1,4 @@
-// Copyright (c) 2022, Kanivin Technologies and contributors
+// Copyright (c) 2022, Kanivin and contributors
 // For license information, please see license.txt
 
 frappe.query_reports["Database Storage Usage By Tables"] = {

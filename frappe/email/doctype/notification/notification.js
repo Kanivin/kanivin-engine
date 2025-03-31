@@ -1,4 +1,4 @@
-// Copyright (c) 2018, Kanivin Technologies and contributors
+// Copyright (c) 2018, Kanivin and contributors
 // For license information, please see license.txt
 
 const DATE_BASED_EVENTS = ["Days Before", "Days After"];

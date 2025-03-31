@@ -4,7 +4,7 @@ from . import __version__ as app_version
 
 app_name = "frappe"
 app_title = "Kanivin Framework"
-app_publisher = "Kanivin Technologies"
+app_publisher = "Kanivin"
 app_description = "Full stack web framework with Python, Javascript, MariaDB, Redis, Node"
 app_license = "MIT"
 app_logo_url = "/assets/frappe/images/frappe-framework-logo.svg"

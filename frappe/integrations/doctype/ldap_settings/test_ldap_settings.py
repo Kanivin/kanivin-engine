@@ -1,4 +1,4 @@
-# Copyright (c) 2022, Kanivin Technologies and Contributors
+# Copyright (c) 2022, Kanivin and Contributors
 # License: MIT. See LICENSE
 import contextlib
 import functools

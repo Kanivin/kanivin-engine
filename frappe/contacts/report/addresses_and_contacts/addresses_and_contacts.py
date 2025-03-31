@@ -1,4 +1,4 @@
-# Copyright (c) 2013, Kanivin Technologies Pvt. Ltd. and contributors
+# Copyright (c) 2013, Kanivin Pvt. Ltd. and contributors
 # License: MIT. See LICENSE
 import frappe
 from frappe import _

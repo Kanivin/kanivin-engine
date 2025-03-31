@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Kanivin Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2015, Kanivin Pvt. Ltd. and Contributors
 # License: MIT. See LICENSE
 import frappe
 from frappe.core.doctype.domain_settings.domain_settings import get_active_modules

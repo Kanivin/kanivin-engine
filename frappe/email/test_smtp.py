@@ -1,4 +1,4 @@
-# Copyright (c) 2020, Kanivin Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2020, Kanivin Pvt. Ltd. and Contributors
 # License: The MIT License
 
 import frappe

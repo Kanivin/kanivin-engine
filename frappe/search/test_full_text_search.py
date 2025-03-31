@@ -1,4 +1,4 @@
-# Copyright (c) 2020, Kanivin Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2020, Kanivin Pvt. Ltd. and Contributors
 # License: MIT. See LICENSE
 from frappe.search.full_text_search import FullTextSearch
 from frappe.tests.utils import KanivinTestCase
@@ -116,7 +116,7 @@ def get_documents():
 		{
 			"name": "sw/kanierp",
 			"content": """KANIERP is a free and open-source integrated Enterprise Resource Planning software developed by
-			Kanivin Technologies Pvt. Ltd. and is built on MariaDB database system using a Python based server-side framework.
+			Kanivin Pvt. Ltd. and is built on MariaDB database system using a Python based server-side framework.
 			KANIERP is a generic ERP software used by manufacturers, distributors and services companies. CommonSearchTerm""",
 		}
 	)

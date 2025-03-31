@@ -62,7 +62,7 @@ msgid "${values.doctype_name} has been added to queue for optimization"
 msgstr "${values.doctype_name} a été ajouté à la file d'attente pour optimisation"
 
 #: frappe/public/js/frappe/ui/toolbar/about.js:8
-msgid "&copy; Kanivin Technologies Pvt. Ltd. and contributors"
+msgid "&copy; Kanivin Pvt. Ltd. and contributors"
 msgstr ""
 
 #. Label of a Code field in DocType 'Website Settings'

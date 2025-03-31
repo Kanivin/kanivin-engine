@@ -1,4 +1,4 @@
-# Copyright (c) 2017, Kanivin Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2017, Kanivin Pvt. Ltd. and Contributors
 # License: MIT. See LICENSE
 import time
 
@@ -139,10 +139,10 @@ class TestTwoFactor(KanivinTestCase):
 
 	def test_render_string_template(self):
 		"""String template renders as expected with variables."""
-		args = {"issuer_name": "Kanivin Technologies"}
+		args = {"issuer_name": "Kanivin"}
 		_str = "Verification Code from {{issuer_name}}"
 		_str = frappe.render_template(_str, args)
-		self.assertEqual(_str, "Verification Code from Kanivin Technologies")
+		self.assertEqual(_str, "Verification Code from Kanivin")
 
 	def test_bypass_restict_ip(self):
 		"""

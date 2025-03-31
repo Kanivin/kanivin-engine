@@ -93,7 +93,7 @@ removing any features
 <http://frappe.example.com/api/method/frappe.email.bulk.unsubscribe?email=3D=
 sukh%40example.com&name=3DWN-SUP17470&doctype=3DIssue&_signature=3Dbba=
 bf063b4f3aad9ba1af915aa66df23>
-> Kanivin Technologies Private Limited
+> Kanivin Private Limited
 > Sent via KANIERP <https://example.com/?source=3Dvia_email_footer>
 
 
@@ -176,7 +176,7 @@ class=3D"">Leave this conversation
 				</a>
 			</p>
 		</div><div style=3D"margin: 15px auto; text-align: =
-center; color: #8d99a6" class=3D"">Kanivin Technologies Private =
+center; color: #8d99a6" class=3D"">Kanivin Private =
 Limited</div><div style=3D"margin: 15px auto;" class=3D""><div =
 style=3D"text-align: center;" class=3D"">
 	<a href=3D"https://example.com/?source=3Dvia_email_footer" =

@@ -1,4 +1,4 @@
-# Copyright (c) 2025, Kanivin Technologies and Contributors
+# Copyright (c) 2025, Kanivin and Contributors
 # See license.txt
 
 # import frappe

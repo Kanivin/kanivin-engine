@@ -1,4 +1,4 @@
-# Copyright (c) 2018, Kanivin Technologies and contributors
+# Copyright (c) 2018, Kanivin and contributors
 # License: MIT. See LICENSE
 
 import json

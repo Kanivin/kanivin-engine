@@ -1,4 +1,4 @@
-# Copyright (c) 2021, Kanivin Technologies and Contributors
+# Copyright (c) 2021, Kanivin and Contributors
 # License: MIT. See LICENSE
 
 import frappe

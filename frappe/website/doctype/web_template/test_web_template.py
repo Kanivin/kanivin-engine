@@ -1,4 +1,4 @@
-# Copyright (c) 2020, Kanivin Technologies and Contributors
+# Copyright (c) 2020, Kanivin and Contributors
 # License: MIT. See LICENSE
 from bs4 import BeautifulSoup
 

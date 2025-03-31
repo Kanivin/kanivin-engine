@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frappe/frappe.git"
+    "url": "git+https://https://github.com/Kanivin/kanivin-engine.git"
   },
-  "author": "Kanivin Technologies Pvt. Ltd.",
+  "author": "Kanivin Pvt. Ltd.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frappe/frappe/issues"
+    "url": "https://https://github.com/Kanivin/kanivin-engine/issues"
   },
   "engines": {
     "node": ">=18"

@@ -1,4 +1,4 @@
-# Copyright (c) 2018, Kanivin Technologies and Contributors
+# Copyright (c) 2018, Kanivin and Contributors
 # License: MIT. See LICENSE
 import frappe
 from frappe.tests.utils import KanivinTestCase

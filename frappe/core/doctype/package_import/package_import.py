@@ -1,4 +1,4 @@
-# Copyright (c) 2021, Kanivin Technologies and contributors
+# Copyright (c) 2021, Kanivin and contributors
 # For license information, please see license.txt
 
 import json

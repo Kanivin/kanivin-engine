@@ -1,4 +1,4 @@
-# Copyright (c) 2021, Kanivin Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2021, Kanivin Pvt. Ltd. and Contributors
 # MIT License. See LICENSE
 import base64
 import binascii

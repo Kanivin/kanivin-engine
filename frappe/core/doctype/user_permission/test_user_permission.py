@@ -1,4 +1,4 @@
-# Copyright (c) 2021, Kanivin Technologies and Contributors
+# Copyright (c) 2021, Kanivin and Contributors
 # See LICENSE
 import frappe
 from frappe.core.doctype.doctype.test_doctype import new_doctype

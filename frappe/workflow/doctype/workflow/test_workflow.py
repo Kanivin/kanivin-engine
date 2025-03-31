@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Kanivin Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2015, Kanivin Pvt. Ltd. and Contributors
 # License: MIT. See LICENSE
 from unittest.mock import patch
 

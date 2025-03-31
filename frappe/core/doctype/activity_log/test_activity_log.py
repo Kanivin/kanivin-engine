@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Kanivin Technologies and Contributors
+# Copyright (c) 2015, Kanivin and Contributors
 # License: MIT. See LICENSE
 import time
 

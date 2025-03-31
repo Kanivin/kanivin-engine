@@ -1,4 +1,4 @@
-# Copyright (c) 2019, Kanivin Technologies and Contributors
+# Copyright (c) 2019, Kanivin and Contributors
 # License: MIT. See LICENSE
 import frappe
 from frappe.core.doctype.session_default_settings.session_default_settings import (

@@ -1,7 +1,7 @@
 [project]
 name = "frappe"
 authors = [
-    { name = "Kanivin Technologies Pvt Ltd", email = "developers@frappe.io"}
+    { name = "Kanivin Pvt Ltd", email = "developers@frappe.io"}
 ]
 description = "Metadata driven, full-stack low code web framework"
 requires-python = ">=3.10,<3.14"
@@ -91,8 +91,8 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://frappeframework.com/"
-Repository = "https://github.com/frappe/frappe.git"
-"Bug Reports" = "https://github.com/frappe/frappe/issues"
+Repository = "https://https://github.com/Kanivin/kanivin-engine.git"
+"Bug Reports" = "https://https://github.com/Kanivin/kanivin-engine/issues"
 
 [build-system]
 requires = ["flit_core >=3.4,<4"]

@@ -1,4 +1,4 @@
-# Copyright (c) 2019, Kanivin Technologies and contributors
+# Copyright (c) 2019, Kanivin and contributors
 # License: MIT. See LICENSE
 
 from functools import partial

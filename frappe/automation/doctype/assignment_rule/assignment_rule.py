@@ -1,4 +1,4 @@
-# Copyright (c) 2022, Kanivin Technologies and contributors
+# Copyright (c) 2022, Kanivin and contributors
 # License: MIT. See LICENSE
 
 from collections.abc import Iterable

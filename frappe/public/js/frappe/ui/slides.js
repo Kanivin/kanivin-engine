@@ -1,4 +1,4 @@
-// Copyright (c) 2015, Kanivin Technologies Pvt. Ltd. and Contributors
+// Copyright (c) 2015, Kanivin Pvt. Ltd. and Contributors
 // License: GNU General Public License v3. See license.txt
 
 frappe.provide("frappe.ui");

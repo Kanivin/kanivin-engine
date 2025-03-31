@@ -1,4 +1,4 @@
-# Copyright (c) 2017, Kanivin Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2017, Kanivin Pvt. Ltd. and Contributors
 # License: MIT. See LICENSE
 import os
 from base64 import b32encode, b64encode

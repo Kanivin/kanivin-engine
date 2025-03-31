@@ -1,4 +1,4 @@
-// Copyright (c) 2015, Kanivin Technologies Pvt. Ltd. and Contributors
+// Copyright (c) 2015, Kanivin Pvt. Ltd. and Contributors
 // MIT License. See license.txt
 
 window.refresh_many = function (flist, dn, table_field) {

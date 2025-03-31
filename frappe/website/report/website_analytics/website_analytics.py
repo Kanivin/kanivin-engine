@@ -1,4 +1,4 @@
-# Copyright (c) 2013, Kanivin Technologies and contributors
+# Copyright (c) 2013, Kanivin and contributors
 # License: MIT. See LICENSE
 
 from datetime import datetime

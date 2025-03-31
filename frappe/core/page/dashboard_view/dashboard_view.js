@@ -1,4 +1,4 @@
-// Copyright (c) 2019, Kanivin Technologies Pvt. Ltd. and Contributors
+// Copyright (c) 2019, Kanivin Pvt. Ltd. and Contributors
 // MIT License. See license.txt
 
 frappe.provide("frappe.dashboards");

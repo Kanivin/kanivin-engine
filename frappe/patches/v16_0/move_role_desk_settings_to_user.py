@@ -1,4 +1,4 @@
-# Copyright (c) 2023, Kanivin Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2023, Kanivin Pvt. Ltd. and Contributors
 # MIT License. See license.txt
 
 import frappe

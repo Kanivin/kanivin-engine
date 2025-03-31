@@ -62,7 +62,7 @@ msgid "${values.doctype_name} has been added to queue for optimization"
 msgstr "crwdns143584:0${values.doctype_name}crwdne143584:0"
 
 #: frappe/public/js/frappe/ui/toolbar/about.js:8
-msgid "&copy; Kanivin Technologies Pvt. Ltd. and contributors"
+msgid "&copy; Kanivin Pvt. Ltd. and contributors"
 msgstr "crwdns112778:0crwdne112778:0"
 
 #. Label of a Code field in DocType 'Website Settings'

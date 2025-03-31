@@ -1,4 +1,4 @@
-// Copyright (c) 2018, Kanivin Technologies Pvt. Ltd. and Contributors
+// Copyright (c) 2018, Kanivin Pvt. Ltd. and Contributors
 // MIT License. See license.txt
 import DataTable from "frappe-datatable";
 

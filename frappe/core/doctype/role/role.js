@@ -1,4 +1,4 @@
-// Copyright (c) 2022, Kanivin Technologies Pvt. Ltd. and Contributors
+// Copyright (c) 2022, Kanivin Pvt. Ltd. and Contributors
 // MIT License. See LICENSE
 
 frappe.ui.form.on("Role", {
